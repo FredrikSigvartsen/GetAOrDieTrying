@@ -160,6 +160,8 @@ h3 {
 	font-family: Helvetica;
 	color: #FF4747;
 	font-size: 200%;
+	padding-top: 20px;
+	border-top: 1px solid #FF4747;
 }
 
 h4,h5 {
