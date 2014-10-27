@@ -143,14 +143,6 @@ html, body {
 
 }
 
-.footer {
-	position: absolute;
-	bottom: -5100px;
-	height: 20%;
-	width: 100%;
-	background-color: #FF4747;
-}
-
 h1 {
 	font-family: Helvetica;
 	font-size: 500%;
@@ -190,4 +182,8 @@ ul li {
 p {
 	font-family: Helvetica;
 	text-align: left;
+}
+
+#paddingBunn {
+	margin-bottom: 50px;
 }
