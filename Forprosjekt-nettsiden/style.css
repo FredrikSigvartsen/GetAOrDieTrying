@@ -138,6 +138,7 @@ h3 {
 
 h4 {
 	font-family: Helvetica;
+        text-align: left;
 }
 
 ol li {
@@ -154,7 +155,7 @@ ul li {
 }
 
 =======
-h4 {text-align: left}
+
 >>>>>>> origin/master
 p {
 	font-family: Helvetica;
