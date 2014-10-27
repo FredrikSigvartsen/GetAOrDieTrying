@@ -36,7 +36,8 @@ html, body {
 
 #imageFloatRight { 
 	float: right;
-	height: 200px;
+	margin-top: 20px;
+	height: 180px;
 	width: 300px;
 
  } 
