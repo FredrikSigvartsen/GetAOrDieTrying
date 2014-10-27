@@ -137,12 +137,16 @@ h3 {
 
 h4 {
 	font-family: Helvetica;
+<<<<<<< HEAD
 	text-align: left;
 }
 
 h5 {
 	font-family: Helvetica;
 	font-size: 1em;
+=======
+        text-align: left;
+>>>>>>> origin/master
 }
 
 ol li {
@@ -157,6 +161,13 @@ ul li {
 	margin-left: 40%;
 	font-family: Helvetica;
 }
+<<<<<<< HEAD
+
+=======
+
+>>>>>>> origin/master
+=======
+>>>>>>> origin/master
 p {
 	font-family: Helvetica;
 	text-align: left;
