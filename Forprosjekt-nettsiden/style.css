@@ -140,11 +140,6 @@ h4 {
 	text-align: left;
 }
 
-h5 {
-	font-family: Helvetica;
-	font-size: 1em;
-}
-
 ol li {
 	text-align: left;
 	margin-left: 10%;
@@ -154,7 +149,7 @@ ol li {
 
 ul li {
 	text-align: left;
-	margin-left: 40%;
+	margin-left: 5%;
 	font-family: Helvetica;
 }
 p {
