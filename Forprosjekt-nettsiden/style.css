@@ -41,6 +41,10 @@ html, body {
 	width: 300px;
 
  } 
+#milestone{
+	width: 115%;
+	height: 20%;
+}
 
 .right {
 	position: fixed;
