@@ -125,6 +125,24 @@ h3 {
 	color: #FF4747;
 	font-size: 200%;
 }
+
+h4 {
+	font-family: Helvetica;
+}
+
+ol li {
+	text-align: left;
+	margin-left: 10%;
+	margin-bottom: 10px;
+	font-family: Helvetica;
+}
+
+ul li {
+	text-align: left;
+	margin-left: 40%;
+	font-family: Helvetica;
+}
+
 p {
 	font-family: Helvetica;
 	text-align: left;
