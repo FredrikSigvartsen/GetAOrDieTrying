@@ -34,7 +34,12 @@ html, body {
 	top: 127%;
 }
 
- .imageFloatRight { float: right; } 
+#imageFloatRight { 
+	float: right;
+	height: 200px;
+	width: 300px;
+
+ } 
 
 .right {
 	position: fixed;
