@@ -134,7 +134,6 @@ h3 {
 	color: #FF4747;
 	font-size: 200%;
 }
-<<<<<<< HEAD
 
 h4 {
 	font-family: Helvetica;
@@ -151,12 +150,4 @@ ul li {
 	text-align: left;
 	margin-left: 40%;
 	font-family: Helvetica;
-}
-
-=======
-h4 {text-align: left}
->>>>>>> origin/master
-p {
-	font-family: Helvetica;
-	text-align: left;
 }
