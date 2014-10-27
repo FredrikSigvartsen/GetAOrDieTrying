@@ -40,7 +40,16 @@ html, body {
 	height: 180px;
 	width: 300px;
 
- } 
+}
+
+#usecase{
+	width: 100%
+}
+
+#milestone{
+	width: 115%;
+	height: 20%;
+}
 
 .right {
 	position: fixed;
@@ -125,6 +134,7 @@ h3 {
 	color: #FF4747;
 	font-size: 200%;
 }
+<<<<<<< HEAD
 
 h4 {
 	font-family: Helvetica;
@@ -143,6 +153,9 @@ ul li {
 	font-family: Helvetica;
 }
 
+=======
+h4 {text-align: left}
+>>>>>>> origin/master
 p {
 	font-family: Helvetica;
 	text-align: left;
