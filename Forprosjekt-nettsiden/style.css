@@ -63,10 +63,8 @@ html, body {
 }
 
 #milestone{
-	position: relative;
-	left: -30%;
-	width: 140%;
-	height: 20%;
+	width: 100%;
+	height: 15%;
 }
 
 .right {
