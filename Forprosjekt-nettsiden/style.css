@@ -145,10 +145,10 @@ html, body {
 
 h1 {
 	font-family: Helvetica;
-	font-size: 500%;
+	font-size: 6vw;
 	color: #F9F9F9;
-	margin-left: 55px;
-	margin-top: 25px;
+	margin-left: 16%;
+	margin-top: 3%;
 }
 
 h2 {
