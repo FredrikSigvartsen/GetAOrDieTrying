@@ -14,10 +14,11 @@ header {
 }
 
 nav {
-	float: right;
+	bottom: 0;
+	right: 0;
 	height: 40%;
 	width: 35%;
-	position: relative;
+	position: absolute;
 	margin-top: 6.07%;
 	margin-right: 11.5%;
 }
