@@ -75,9 +75,6 @@ h1 {
 p {
 	font-family: Helvetica;
 }
-table{
-	
-}
 
 td {
 	font-family: Helvetica;
@@ -113,9 +110,7 @@ td {
 	box-shadow: -1px 5px 10px #000000;
 	z-index: 1;
 }
-.dj1 {
-	
-}
+
 
 #navLogo {
 	float:left;
