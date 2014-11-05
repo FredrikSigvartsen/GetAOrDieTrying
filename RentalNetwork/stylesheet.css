@@ -75,6 +75,14 @@ h1 {
 p {
 	font-family: Helvetica;
 }
+table{
+	
+}
+
+td {
+	font-family: Helvetica;
+	vertical-align: top;
+}
 
 .hovedSpalte {
 	width: 65%;
@@ -104,6 +112,9 @@ p {
 	display: border-box;
 	box-shadow: -1px 5px 10px #000000;
 	z-index: 1;
+}
+.dj1 {
+	
 }
 
 #navLogo {
