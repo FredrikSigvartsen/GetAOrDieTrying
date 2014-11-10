@@ -11,33 +11,33 @@
 			<div class="navbar">
 				<nav>
 					<ul>
-						<li><a href="Forside.html">Hjem</a></li>
-						<li><a href="Info.html">Info</a>
-							<ul>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
+						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Info.html">Info</a>
+							<ul id="subnav1">
 								<li><a href="Info.html#omOss">Om oss</a></li>
 								<li><a href="Info.html#utleie">Utleie</a></li>
 								<li><a href="Info.html#event">Event</a></li>
 								<li><a href="Info.html#russ">Russ</a></li>
 							</ul>
 						</li>
-						<li><a href="Utleie.html">Utleie</a>
-							<ul>
+						<li><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Utleie.html">Utleie</a>
+							<ul id="subnav2">
 								<li><a href="utleie/Lyd.html">Lyd</a></li>
 								<li><a href="utleie/Lys.html">Lys</a></li>
 								<li><a href="utleie/Festival.html">Festival</a></li>
 								<li><a href="utleie/Tilbehør.html">Tilbehør</a></li>
 							</ul>
 						</li>
-						<li><a href="DJ.html">DJ</a></li>
-						<li><a href="Kontakt.html" class="highlight">Kontakt</a></li>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li><a class="highlight" onmouseover="dropMenu()" onfocus="dropMenu()" href="Kontakt.html">Kontakt</a></li>
 					</ul>
 				</nav>
 				<img id="navLogo" src="images/rnnlogo.png" alt="RNN Logo"/>
 			</div>
-			<img class="headerImg" id="bilde1" src="images/test3.jpg" alt="Party bilde"/>
-			<img class="headerImg" id="bilde2" src="images/test4.jpg" alt="Party bilde"/>
+			<img onmouseover="dropMenu()" class="headerImg" id="bilde1" src="images/test3.jpg" alt="Party bilde"/>
+			<img onmouseover="dropMenu()" class="headerImg" id="bilde2" src="images/test4.jpg" alt="Party bilde"/>
 		</header>
-		<section>
+		<section onmouseover="dropMenu()">
 			<!--<form action="demo_form.asp">
 			First name: <input type="text" name="FirstName" value="Mickey"><br>
 			Last name: <input type="text" name="LastName" value="Mouse"><br>
@@ -79,39 +79,45 @@
 			</article>
 		</section>
 		<footer>
-			<table id="footertb">
-				<tr>
-					<td><h3>Om oss</h3></td>
-					<td><h3>Meny</h3></td>
-					<td><h3>Sosiale medier</h3></td>
-				</tr>
-				<tr>
-					<td>Rental Network Norway AS</td>
-					<td><a href="Forside.html">Hjem</a></td>
-					<td></td>
-					<div id="sosmedia">
-						<a href="https://www.facebook.com/RentalNetworkNorwayAS" target="_blank"><img src="images/facebook.png" alt="Facbook link" width=5%/></a>
-						<a href="http://instagram.com/rentalnetworknorway" target="_blank"><img src="images/instagram.png" alt="Instagram link" width=5%/></a>
-					</div>
-				</tr>
-				<tr>
-					<td>Org.nr: 998 683 912</td>
-					<td><a href="Info.html"> Info </a></td>
-				</tr>
-				<tr>
-					<td>Tlf.nr: +47 928 16 278</td>
-					<td><a href="Utleie.html"> Utleie </a></td>
-				</tr>
-				<tr>
-					<td>Epost: post@rn-norway.no</td>
-					<td><a href="DJ.html"> DJ </a></td>
-				</tr>
-				<tr>
-					<td></td>
-					<td><a href="Kontakt.html"> Kontakt </a></td>
-					<td></td>
-				</tr>
-			</table>
+			<div class="footerwrap">
+				<div>
+					<h3>Kontakt</h3>
+					<h5>Rental Network Norway AS</h5>
+					<h5>Brobekkveien 107, 0582 OSLO</h5>
+					<h5>Org nr: 998 683 912 MVA</h5>
+					<h5>Tlf nr: +47 928 16 278</h5>
+					<h5>E-post: post@rn-norway.no</h5>
+				</div>
+				<div>
+					<h3>Meny</h3>
+					<ul>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
+						<li><a onmouseover="dropMenu('subnav3')" onfocus="dropMenu('subnav3')" href="Info.html">Info</a>
+							<ul id="subnav3">
+								<li><a href="Info.html#omOss">Om oss</a></li>
+								<li><a href="Info.html#utleie">Utleie</a></li>
+								<li><a href="Info.html#event">Event</a></li>
+								<li><a href="Info.html#russ">Russ</a></li>
+							</ul>
+						</li>
+						<li><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Utleie.html">Utleie</a>
+							<ul class="utleieMeny" id="subnav4">
+								<li><a href="utleie/Lyd.html">Lyd</a></li>
+								<li><a href="utleie/Lys.html">Lys</a></li>
+								<li><a href="utleie/Festival.html">Festival</a></li>
+								<li><a href="utleie/Tilbehør.html">Tilbehør</a></li>
+							</ul>
+						</li>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li><a href="Kontakt.html">Kontakt</a></li>
+					</ul>
+				</div>
+				<div>
+					<h3>Sosiale medier</h3>
+					<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="images/facebook.png"/></a>
+					<a href="http://instagram.com/rentalnetworknorway"><img src="images/instagram.png"/></a>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>
