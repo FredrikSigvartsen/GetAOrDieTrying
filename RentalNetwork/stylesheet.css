@@ -103,6 +103,9 @@ footer {
 	background-color: #666666;
 	box-shadow: -1px -5px 10px #000000;
 	clear: both;
+	color: #F9F9F9;
+	overflow: hidden;
+	font-size: 1.3vw;
 }
 
 h1 {
@@ -185,6 +188,39 @@ article a:active {
     color: #000000;
 	text-decoration: none;
 }
+
+footer a, footer p{
+	color: #F9F9F9;
+}
+
+footer a:hover{
+	color: #CCCCCC;
+}
+
+footer td{
+	width: 33%;
+}
+
+footer h3{
+	font-family: Helvetica;
+	border-bottom: 2px solid #F9F9F9;
+}
+
+#sosmedia{
+	position: relative;
+	top: 30%;
+	left: 62.5%;
+	
+}
+
+#footertb{
+	width: 900px;
+	position: relative;
+	left: 15%;
+	top: -45%;
+}
+
+
 
 #navLogo {
 	float:left;
