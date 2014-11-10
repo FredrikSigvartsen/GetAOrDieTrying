@@ -206,18 +206,11 @@ footer h3{
 	border-bottom: 2px solid #F9F9F9;
 }
 
-#sosmedia{
-	position: relative;
-	top: 5vw;
-	left: 59.5vw;
-	
-}
-
 #footertb{
 	width: 900px;
 	position: relative;
 	left: 12.5vw;
-	top: -6vw;
+	top: 1vw;
 }
 
 
