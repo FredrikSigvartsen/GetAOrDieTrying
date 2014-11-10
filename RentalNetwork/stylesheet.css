@@ -117,7 +117,29 @@ td {
 	padding-right: 1.5em;
 	
 } 
+/* unvisited link */
+article a:link {
+    color: #000000;
+	text-decoration: none;
+}
 
+/* visited link */
+article a:visited {
+    color: #666666;
+	text-decoration: none;
+}
+
+/* mouse over link */
+article a:hover {
+    color: #666666;
+	text-decoration: none;
+}
+
+/* selected link */
+article a:active {
+    color: #000000;
+	text-decoration: none;
+}
 
 #navLogo {
 	float:left;
