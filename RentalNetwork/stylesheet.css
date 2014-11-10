@@ -91,7 +91,7 @@ nav ul ul {
 section {
 	margin: 0 auto -200px;
 	padding: 0;
-	width: 70%;
+	width: 75%;
     height: 1000px;
 	background-color: #F9F9F9;
 	clear: left;
@@ -128,12 +128,12 @@ td {
 }
 
 .hovedSpalte {
-	width: 65%;
+	width: 70%;
 	float: left;
 }
 
 .nyhetSpalte {
-	width: 30%;
+	width: 25%;
 	float: right;
 }
 
@@ -156,7 +156,35 @@ td {
 	box-shadow: -1px 5px 10px #000000;
 	z-index: 1;
 }
+.utleieTabell{
+	
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	
+} 
+/* unvisited link */
+article a:link {
+    color: #000000;
+	text-decoration: none;
+}
 
+/* visited link */
+article a:visited {
+    color: #000000;
+	text-decoration: none;
+}
+
+/* mouse over link */
+article a:hover {
+    color: #666666;
+	text-decoration: none;
+}
+
+/* selected link */
+article a:active {
+    color: #000000;
+	text-decoration: none;
+}
 
 #navLogo {
 	float:left;
