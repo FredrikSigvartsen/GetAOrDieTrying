@@ -50,18 +50,22 @@ Last name: <input type="text" name="LastName" value="Mouse"><br>
 		<article class="hovedSpalte">
 			<h1>Kontakt</h1>
 				<form>
-			<p> Hvem er dere?: <input type= "text" name="FirmaNavn" value="Skriv inn firmanavn" >  </p>
-			<p>	Fornavn: <input type="text" name="Fornavn" value="Skriv inn fornavn her" >  </p>
-			<p> Etternavn: <input type="text" name="Etternavn" value="Skriv inn etternavn her" > </p>
-			<p> Telefon: <input type="text" name="TelefonNr" value="Skriv inn telefonnummer her" > </p>
-			<p> Email:  <input type="email" name="Email" value="Skriv inn din Email her" > </p>
+			<p> Hvem er dere?: <select>
+						<option value="privatPerson"> Privatperson </option>
+						<option value="firma"> Firma</option>
+						<option value="russ"> Russ </option>
+			</select> </p>
+			<p>	Fornavn: <input type="text" name="Fornavn" required placeholder="Skriv inn fornavn her" >  </p>
+			<p> Etternavn: <input type="text" name="Etternavn" required placeholder="Skriv inn etternavn her" > </p>
+			<p> Telefon: <input type="text" name="TelefonNr" required placeholder="Skriv inn telefonnummer her" > </p>
+			<p> Email:  <input type="email" name="Email" required placeholder="Skriv inn din Email her" > </p>
 			<p> Hva slags type arrangement trenger dere hjelp til? 
 			<select>
-						<option value="volvo"> Festival </option>
-						<option value="saab"> Privat arrangement</option>
-						<option value="opel"> Konsert </option>
-						<option value="audi"> Konferanse </option>
-</select>
+						<option value="festival"> Festival </option>
+						<option value="privatArrangement"> Privat arrangement</option>
+						<option value="konsert"> Konsert </option>
+						<option value="konferanse"> Konferanse </option>
+			</select>
 			</form>
 		</article>
              
