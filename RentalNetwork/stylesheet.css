@@ -125,7 +125,7 @@ article a:link {
 
 /* visited link */
 article a:visited {
-    color: #666666;
+    color: #000000;
 	text-decoration: none;
 }
 
