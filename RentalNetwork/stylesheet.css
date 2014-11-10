@@ -67,6 +67,9 @@ nav ul ul {
 	padding: 0;
 	width: 15%;
 }
+	nav ul li:hover > ul {
+	display: block;
+	}
 	nav ul ul li {
 		background: rgba(209,163,25,0.9);
 		position: relative;
@@ -84,40 +87,6 @@ nav ul ul {
 		border-bottom: 1px solid #F9F9F9;
 		color: #F9F9F9;
 	}
-
-nav ul li:hover > ul {
-	display: block;
-}
-
-/*button {
-	float: left;
-	margin-right: 10%;
-	padding: 0;
-	height: 100%;
-	font-size: 1.4vw;
-	font-family: Helvetica;
-	background: rgba(255,102,0,0);
-	border: 0;
-	border-bottom: 4px solid #D1A319;
-	color: #F9F9F9;
-}
-
-button:hover {
-	cursor: pointer;
-	border-bottom: 4px solid #000000;
-}
-
-button:focus {
-	outline: 0;
-	cursor: pointer;
-	border-bottom: 4px solid #000000;
-}
-
-button.highlight {
-	outline:0;
-	border-bottom: 4px solid #000000;
-	color: black;
-}*/
 
 section {
 	margin: 0 auto -200px;
