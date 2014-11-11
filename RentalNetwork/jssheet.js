@@ -18,11 +18,11 @@ setInterval(function() {
 },3500);
 
 /*Menu*/
-var ma = ["subnav1", "subnav2", "subnav3", "subnav4"];
+var subnav = ["subnav1", "subnav2", "subnav3", "subnav4"];
 	function dropMenu(x) {
-		for (var m in ma) {
-			if(ma[m] != x) {
-				document.getElementById(ma[m]).style.display ="none";
+		for (var i in subnav) {
+			if(subnav[i] != x) {
+				document.getElementById(subnav[i]).style.display ="none";
 			}
 		}
 		if(document.getElementById(x).style.display == 'block') {

@@ -204,14 +204,6 @@ footer {
 		left: 25px;
 		position: absolute;
 	}
-	/*footer ul ul {	
-		display: none;
-		float: none;
-		width: 100%;
-		top: 14px;
-		left: 25px;
-		position: absolute;
-	}*/
 	footer ul ul#subnav4 {
 		display: none;
 		float: none;
@@ -227,12 +219,6 @@ footer {
 			padding-right: 3%;
 			padding-left: 3%;
 		}
-		/*footer ul li:hover ul, footer ul li:focus ul, footer ul li:active ul {
-			display: block;
-		}
-		footer ul li:hover ul.utleieMeny, footer ul li:focus ul.utleieMeny, footer ul li:active ul.utleieMeny {
-			display: block;
-		}*/
 
 .anchor {
 	padding-top: 150px;
