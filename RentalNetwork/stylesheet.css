@@ -318,3 +318,9 @@ article div.informasjon {
 	float: right;
 	width: 35%;
 }
+
+.infoImg {
+	float: right;
+	margin-top: 5px;
+	margin-left: 5px;
+}
