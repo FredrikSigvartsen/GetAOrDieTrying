@@ -46,22 +46,33 @@
 			<!-- Kontaktskjema hvor kunden skal fylle inn info og sende som mail til RNN -->
 			<article class="hovedSpalte">
 				<h1>Kontakt</h1>
-					<form>
-						<p> Hvem er dere?: <input type= "text" name="FirmaNavn" value="Skriv inn firmanavn" >  </p>
-						<p>	Fornavn: <input type="text" name="Fornavn" value="Skriv inn fornavn her" >  </p>
-						<p> Etternavn: <input type="text" name="Etternavn" value="Skriv inn etternavn her" > </p>
-						<p> Telefon: <input type="text" name="TelefonNr" value="Skriv inn telefonnummer her" > </p>
-						<p> Email:  <input type="email" name="Email" value="Skriv inn din Email her" > </p>
-						<p> Hva slags type arrangement trenger dere hjelp til? 
+				<form>
+					<p> Hvem er dere?: <input type= "text" name="FirmaNavn" placeholder="Skriv inn firmanavn" >  </p>
+					<p>	Fornavn: <input type="text" name="Fornavn" required placeholder="Skriv inn fornavn her" >  </p>
+					<p> Etternavn: <input type="text" name="Etternavn" required placeholder="Skriv inn etternavn her" > </p>
+					<p> Telefon: <input type="tel" name="TelefonNr" reqiured placeholder="Skriv inn telefonnummer her" > </p>
+					<p> E-post:  <input type="email" name="Email" required placeholder="Skriv inn din E-post her" > </p>
+					<p> Type arrangement:
 						<select>
-							<option value="volvo"> Festival </option>
-							<option value="saab"> Privat arrangement</option>
-							<option value="opel"> Konsert </option>
-							<option value="audi"> Konferanse </option>
+							<option value="festival"> Festival </option>
+							<option value="russetreff"> Russetreff </option>
+							<option value="privat"> Privat arrangement</option>
+							<option value="konsert"> Konsert </option>
+							<option value="konferanse"> Konferanse </option>
 						</select>
-					</form>
-			</article> 
-            
+					</p>
+					<textarea placeholder="Skriv mail" required></textarea>
+					<input type="submit" value="Send" id="submit">
+				</form>
+				<div class="informasjon">
+					<h3> Rental Network Norway AS </h3>
+					<p> Brobekkveien 107, 0582 OSLO<br/><br/>
+						Org nr: 998 683 912 MVA<br/><br/>
+						Tlf nr: +47 928 16 278<br/><br/>
+						E-post: post@rn-norway.no
+					</p>
+				</div>
+			</article>
 		</section>
 		<footer>
 			<div class="footerwrap">
@@ -99,8 +110,8 @@
 				</div>
 				<div>
 					<h3>Sosiale medier</h3>
-					<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="images/facebook.png"/></a>
-					<a href="http://instagram.com/rentalnetworknorway"><img src="images/instagram.png"/></a>
+					<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="images/facebook.png" alt="Picture of Facebook logo"/></a>
+					<a href="http://instagram.com/rentalnetworknorway"><img src="images/instagram.png" alt="Picture of Instagram logo"/></a>
 				</div>
 			</div>
 		</footer>

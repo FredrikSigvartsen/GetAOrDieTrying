@@ -90,7 +90,7 @@ section {
 	margin: 0 auto -200px;
 	padding: 0;
 	width: 75%;
-    height: 1000px;
+    height: 100%;
 	background-color: #F9F9F9;
 	clear: left;
 }
@@ -261,7 +261,6 @@ article.nyhetSpalte {
 } 
 
 #navLogo {
-	float:left;
 	height: 75%;
 	width: 7.5%;
 	position: relative;
@@ -275,4 +274,38 @@ article.nyhetSpalte {
 
 #bilde2 {
 	opacity: 0;
+}
+
+form {
+	float: left;
+	width: 47.5%;
+}
+
+input {
+	float: right;
+	height: 25px;
+	width: 250px;
+}
+
+input#submit {
+	margin-top: 10px;
+	float: left;
+}
+
+select {
+	float: right;
+	height: 25px;
+	width: 254px;
+}
+
+textarea {
+	clear: both;
+	float: left;
+	width: 209.5%;
+	height: 300px;
+}
+
+article div.informasjon {
+	float: right;
+	width: 35%;
 }
