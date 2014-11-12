@@ -78,6 +78,7 @@ nav ul ul#subnav1,nav ul ul#subnav2 {
 		padding: 15px 5px 1px 5px;
 		border-left: 1px solid #000000;
 		border-right: 1px solid #000000;
+		width: 150%;
 	}
 	nav ul ul li a {
 		border-bottom: 1px solid #000000;
@@ -119,7 +120,7 @@ article a:active {
 	text-decoration: none;
 }
 /* mouse over link */
-article a:hover {
+article a.utleieLink:hover {
     color: #666666;
 	text-decoration: none;
 }
@@ -234,8 +235,12 @@ article.hoyreSpalte {
 	float: right;
 }
 
-.anchor {
+article a.anchor {
 	padding-top: 21vh;/*150px*/;
+}
+
+article a.anchor:hover {
+	color:000000 !important;
 }
 
 .headerImg {
