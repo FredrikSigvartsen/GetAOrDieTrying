@@ -215,7 +215,7 @@ article {
 	margin-bottom: 3%;
 }
 
-article#forsideSpalte {
+article.venstreSpalte {
 	width: 70%;
 	float: left;
 }
@@ -225,7 +225,7 @@ article.hovedSpalte {
 	float: left;
 }
 
-article.nyhetSpalte {
+article.hoyreSpalte {
 	width: 25%;
 	float: right;
 }
