@@ -215,8 +215,13 @@ article {
 	margin-bottom: 3%;
 }
 
-article.hovedSpalte {
+article#forsideSpalte {
 	width: 70%;
+	float: left;
+}
+
+article.hovedSpalte {
+	width: 100%;
 	float: left;
 }
 
