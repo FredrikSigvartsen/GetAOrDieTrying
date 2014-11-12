@@ -323,4 +323,10 @@ article div.informasjon {
 	float: right;
 	margin-top: 5px;
 	margin-left: 5px;
+	box-shadow: -1px 5px 10px #000000;
+}
+
+.linje {
+	padding-top: 14px;
+	border-top: 1px solid #D1A319;
 }
