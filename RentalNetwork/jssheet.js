@@ -1,3 +1,4 @@
+/*Header images*/
 setInterval(function() {
 
 	var elem1 = document.getElementById("bilde1");
@@ -31,3 +32,17 @@ var subnav = ["subnav1", "subnav2", "subnav3", "subnav4"];
 			document.getElementById(x).style.display = "block";
 		}
 	}
+
+/*Nyheter*/
+var nyhetSide = ["nyhetSide1", "nyhetSide2"];
+function byttNyhet(el) {
+	for (var i in nyhetSide) {
+		if(nyhetSide[i] == el) {
+			document.getElementById(nyhetSide[i]).style.display = "none";
+			if ( i == 0 )
+				document.getElementById(nyhetSide[++i]).style.display = "block";
+			else
+				document.getElementById(nyhetSide[--i]).style.display = "block";
+		}
+	}
+}
