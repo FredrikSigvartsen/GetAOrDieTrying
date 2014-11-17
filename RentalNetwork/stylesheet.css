@@ -122,7 +122,7 @@ div#noEn{
 	top: -7%;
 	right: 5%;
 	border: 1px solid #000000;
-	background: rgba(209,163,25,0.7);
+	background: rgba(209,163,25,0.5);
 	font-size: 1.1vw;
 	border-radius: 5px;
 	padding-bottom: 0;
@@ -370,7 +370,7 @@ article a.utleieLink:active {
 }
 
 article a.utleieLink:hover {
-    color: #D1A319;
+    color: #666666;
 	text-decoration: none;
 }
 
@@ -392,7 +392,6 @@ article a.utleieLink:hover {
 	border-width: 0 0 1px 1px;
     border-style: solid;
 	color: black;
-	width: 90%;
 }
 
 
