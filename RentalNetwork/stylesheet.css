@@ -387,10 +387,11 @@ span {
 
 a.active { 
 	color: #D1A319;
-
+}
+	
 .pris{
 	vertical-align:bottom;
-	text-align: right;
+	text-align: center;
 }
 .utleie{
 	border: 1px dotted #000000; 
