@@ -1,3 +1,4 @@
+/*ALLE SIDER*/
 body {
 	margin: 0;
 	padding: 0;
@@ -7,17 +8,103 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-header {
-	float: left;
-	width: 100%;
-	height: 500px;
+h1 {
+	font-size: 2.9vw/*2.5em*/;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	color: #000000;
+	border-bottom: 1px solid #D1A319;
 }
 
 p {
 	line-height: 150%;
 }
 
+section {
+	margin: 0 auto -200px;
+	padding: 0;
+	width: 75%;
+    height: 100%;
+	background-color: #F9F9F9;
+	clear: left;
+}
+
+article {
+	margin-bottom: 3%;
+}
+
+article.venstreSpalte {
+	width: 70%;
+	float: left;
+}
+
+article.hovedSpalte {
+	width: 100%;
+	float: left;
+}
+
+article.hoyreSpalte {
+	width: 25%;
+	float: right;
+}
+
+#bilde1 {
+	opacity: 1;
+}
+
+#bilde2 {
+	opacity: 0;
+}
+#bilde3 {
+	opacity: 0;
+}
+#bilde4 {
+	opacity: 0;
+}
+#bilde5 {
+	opacity: 0;
+}
+
+/*header*/
+.headerImg {
+	width: 100%;
+	height: 500px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+#navLogo {
+	height: 75%;
+	width: 7.5%;
+	position: relative;
+	margin-top: 1.2%;
+	margin-left: 12.5%;
+}
+
+header {
+	float: left;
+	width: 100%;
+	height: 500px;
+}
+
 /*Nav-bar*/
+.navbar {
+	width: 100%;
+	height: 20%;
+	position: fixed;
+	margin: 0;
+	padding: 0;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: -moz-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: -o-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: -ms-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	display: border-box;
+	box-shadow: -1px 5px 10px #000000;
+	z-index: 1;
+}
+
 nav {
 	bottom: 0;
 	right: 0;
@@ -99,44 +186,11 @@ nav ul ul#subnav1,nav ul ul#subnav2 {
 		color: #F9F9F9;
 	}
 
-section {
-	margin: 0 auto -200px;
-	padding: 0;
-	width: 75%;
-    height: 100%;
-	background-color: #F9F9F9;
-	clear: left;
-}
-
-h1 {
-	font-size: 2.9vw/*2.5em*/;
-	padding-bottom: 10px;
-	margin-bottom: 10px;
-	color: #000000;
-	border-bottom: 1px solid #D1A319;
-}
-
-td {
-	vertical-align: top;
-}
-
-/* unvisited link, visited link, active link */
-article a.utleieLink:link,
-article a.utleieLink:visited,
-article a.utleieLink:active {
-    color: #000000;
-	text-decoration: none;
-}
-/* mouse over link */
-article a.utleieLink:hover {
-    color: #666666;
-	text-decoration: none;
-}
-
 /* footer */
 footer {
 	width: 100%;
-	height: 215px;
+	/*height: 215px;*/
+	height: 32vh;
 	background-color: #666666;
 	box-shadow: -1px -5px 10px #000000;
 	clear: both;
@@ -203,8 +257,8 @@ footer {
 		display: none;
 		float: none;
 		width: 100%;
-		top: 17px;
-		left: 27px;
+		top: 12.5%;
+		left: 8%;
 		position: absolute;
 	}
 	footer ul ul#subnav4 {
@@ -212,8 +266,8 @@ footer {
 		float: none;
 		width: 100%;
 		position: absolute;
-		left: 42px;
-		top: 47px;
+		left: 13%;
+		top: 34%;
 	}
 		footer ul ul li {
 			float: left;
@@ -223,25 +277,43 @@ footer {
 			padding-left: 3%;
 		}
 
-article {
-	margin-bottom: 3%;
+/*FORSIDE*/
+.publisert {
+	font-style: italic;
+	font-size: 80%;
 }
 
-article.venstreSpalte {
-	width: 70%;
-	float: left;
+#nyhetSide1 {
+	display: block;
+}
+#nyhetSide2 {
+	display: none;
 }
 
-article.hovedSpalte {
+span {
+	font-size: 150%;
+}
+
+#nyhetNav {
+	font-size: 150%;
+	text-align: center;
+}
+
+#forsideBilde {
+	box-shadow: 0px 5px 10px #000000;
+	margin-bottom: 10px;
 	width: 100%;
-	float: left;
 }
 
-article.hoyreSpalte {
-	width: 25%;
-	float: right;
+#nyhetBilde {
+	width: 100%;
 }
 
+a.active { 
+	color: #D1A319;
+}
+		
+/*INFO SIDEN*/
 article a.anchor {
 	padding-top: 21vh;/*150px*/;
 }
@@ -250,36 +322,68 @@ article a.anchor:hover {
 	color:000000 !important;
 }
 
-.headerImg {
-	width: 100%;
-	height: 500px;
-	margin: 0;
-	padding: 0;
-	position: absolute;
+#infoImg {
+	float: right;
+	margin-top: 5px;
+	margin-left: 5px;
+	box-shadow: 0px 5px 10px #000000;
 }
 
-.navbar {
+#infoImg1 {
 	width: 100%;
-	height: 20%;
-	position: fixed;
-	margin: 0;
-	padding: 0;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
-	background: -moz-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
-	background: -o-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
-	background: -ms-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
-	background: gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
-	display: border-box;
-	box-shadow: -1px 5px 10px #000000;
-	z-index: 1;
+	box-shadow: 0px 5px 10px #000000;
 }
+
+#infoImg2 {
+	width: 100%;
+	box-shadow: 0px 5px 10px #000000;
+}
+
+.linje {
+	padding-top: 14px;
+	border-top: 1px solid #D1A319;
+}
+
+/*UTLEIE*/
+article a.utleieLink:link,
+article a.utleieLink:visited,
+article a.utleieLink:active {
+    color: #000000;
+	text-decoration: none;
+}
+
+article a.utleieLink:hover {
+    color: #666666;
+	text-decoration: none;
+}
+
 .utleieTabell{
-	
 	padding-left: 1.5em;
 	padding-right: 1.5em;
-	
-} 
+}
 
+.pris{
+	vertical-align:bottom;
+	text-align: center;
+}
+.utleieRad{
+	width:100px;
+	
+}
+.utleieOversikt{
+   background-color: red; 
+   border: 1;
+}
+.utleie{
+	border: 1px dotted #000000; 
+
+}
+
+#utleieTable {
+	margin: 0 auto;
+}
+
+/*DJ*/
 .djImg {
 	width: 100%;
 }
@@ -295,31 +399,7 @@ article a.anchor:hover {
 	margin-right: 0;
 }
 
-#navLogo {
-	height: 75%;
-	width: 7.5%;
-	position: relative;
-	margin-top: 1.2%;
-	margin-left: 12.5%;
-}
-/* Her må det bli bedre navn på bilde-ID    */
-#bilde1 {
-	opacity: 1;
-}
-
-#bilde2 {
-	opacity: 0;
-}
-#bilde3 {
-	opacity: 0;
-}
-#bilde4 {
-	opacity: 0;
-}
-#bilde5 {
-	opacity: 0;
-}
-
+/*KONTAKT*/
 form {
 	float: left;
 	width: 47.5%;
@@ -352,103 +432,4 @@ textarea {
 article div.informasjon {
 	float: right;
 	width: 35%;
-}
-
-#infoImg {
-	float: right;
-	margin-top: 5px;
-	margin-left: 5px;
-	box-shadow: 0px 5px 10px #000000;
-}
-
-#infoImg1 {
-	width: 100%;
-	box-shadow: 0px 5px 10px #000000;
-}
-
-#infoImg2 {
-	width: 100%;
-	box-shadow: 0px 5px 10px #000000;
-}
-
-.linje {
-	padding-top: 14px;
-	border-top: 1px solid #D1A319;
-}
-
-#forsideBilde {
-	box-shadow: 0px 5px 10px #000000;
-	margin-bottom: 10px;
-}
-.publisert {
-	font-style: italic;
-	font-size: 80%;
-}
-
-#nyhetSide1 {
-	display: block;
-}
-#nyhetSide2 {
-	display: none;
-}
-span {
-	font-size: 150%;
-}
-
-#nyhetNav {
-	font-size: 150%;
-	text-align: center;
-}
-
-a.active { 
-	color: #D1A319;
-}
-#forsideBilde {
-	box-shadow: 0px 5px 10px #000000;
-	margin-bottom: 10px;
-	width: 100%;
-}
-
-.publisert {
-	font-style: italic;
-	font-size: 80%;
-}
-#nyhetBilde {
-	width: 100%;
-}
-#nyhetSide1 {
-	display: block;
-}
-#nyhetSide2 {
-	display: none;
-}
-
-#nyhetNav {
-	font-size: 150%;
-	text-align: center;
-}
-
-a.active { 
-	color: #D1A319;
-}
-	
-.pris{
-	vertical-align:bottom;
-	text-align: center;
-}
-.utleieRad{
-	width:100px;
-	
-}
-.utleieOversikt{
-   background-color: red; 
-   border: 1;
-}
-.utleie{
-	border: 1px dotted #000000; 
-
-}
-
-#utleieTable {
-	margin: 0 auto;
 }
