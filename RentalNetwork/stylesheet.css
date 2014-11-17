@@ -374,13 +374,14 @@ article a.utleieLink:hover {
 .utleieOversikt{
 	border-width: 0 0 1px 1px;
     border-style: solid;
+	color: black;
 }
 
 
-.utleieOversikt td{
+.utleieOversikt td, th{
 	margin: 0;
-    border: 1px;
-	border-color: black;
+    border: 0.6px;
+	border-color: #666666;
 	border-style: solid;
 	border-width: 1px 1px 0 0;
 	padding: 0.7vw;
