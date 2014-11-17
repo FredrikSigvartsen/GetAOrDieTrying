@@ -344,7 +344,7 @@ article a.anchor:hover {
 	border-top: 1px solid #D1A319;
 }
 
-/*UTLEIE*/
+/*UTLEIE SIDER*/
 article a.utleieLink:link,
 article a.utleieLink:visited,
 article a.utleieLink:active {
@@ -383,7 +383,7 @@ article a.utleieLink:hover {
 	margin: 0 auto;
 }
 
-/*DJ*/
+/*DJ SIDE*/
 .djImg {
 	width: 100%;
 }
@@ -399,7 +399,7 @@ article a.utleieLink:hover {
 	margin-right: 0;
 }
 
-/*KONTAKT*/
+/*KONTAKT SIDE*/
 form {
 	float: left;
 	width: 47.5%;
