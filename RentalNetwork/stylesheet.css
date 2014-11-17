@@ -199,8 +199,8 @@ footer {
 		display: none;
 		float: none;
 		width: 100%;
-		top: 14px;
-		left: 25px;
+		top: 19.5px;
+		left: 27px;
 		position: absolute;
 	}
 	footer ul ul#subnav4 {
@@ -208,8 +208,8 @@ footer {
 		float: none;
 		width: 100%;
 		position: absolute;
-		left: 36px;
-		top: 41px;
+		left: 41px;
+		top: 51.5px;
 	}
 		footer ul ul li {
 			float: left;
