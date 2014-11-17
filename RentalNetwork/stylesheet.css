@@ -141,6 +141,7 @@ footer {
 	box-shadow: -1px -5px 10px #000000;
 	clear: both;
 	color: #F9F9F9;
+	/*font-size: 1.17vw;*/
 }
 	footer div.footerwrap {
 		width: 78.5%;
@@ -343,11 +344,21 @@ article div.informasjon {
 	width: 35%;
 }
 
-.infoImg {
+#infoImg {
 	float: right;
 	margin-top: 5px;
 	margin-left: 5px;
-	box-shadow: -1px 5px 10px #000000;
+	box-shadow: 0px 5px 10px #000000;
+}
+
+#infoImg1 {
+	width: 100%;
+	box-shadow: 0px 5px 10px #000000;
+}
+
+#infoImg2 {
+	width: 100%;
+	box-shadow: 0px 5px 10px #000000;
 }
 
 .linje {
