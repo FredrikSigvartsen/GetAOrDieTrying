@@ -366,6 +366,29 @@ article a.utleieLink:hover {
 	margin: 0 auto;
 }
 
+.utleieOversikt img{
+	width: 180px;
+	height: 150px;
+}
+
+.utleieOversikt{
+	border-width: 0 0 1px 1px;
+    border-style: solid;
+}
+
+
+.utleieOversikt td{
+	margin: 0;
+    border: 1px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	padding: 0.7vw;
+}
+.utleieBeskrivelse{
+	font-weight: bold;
+}
+
 /*DJ SIDE*/
 .djImg {
 	width: 100%;
@@ -487,25 +510,4 @@ span {
 a.active { 
 	color: #D1A319;
 }
-.utleieOversikt img{
-	width: 180px;
-	height: 150px;
-}
 
-.utleieOversikt{
-	border-width: 0 0 1px 1px;
-    border-style: solid;
-}
-
-
-.utleieOversikt td{
-	margin: 0;
-    border: 1px;
-	border-color: black;
-	border-style: solid;
-	border-width: 1px 1px 0 0;
-	padding: 0.7vw;
-}
-.utleieBeskrivelse{
-	font-weight: bold;
-}
