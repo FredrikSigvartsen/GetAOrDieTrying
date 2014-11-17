@@ -362,23 +362,6 @@ article a.utleieLink:hover {
 	padding-right: 1.5em;
 }
 
-.pris{
-	vertical-align:bottom;
-	text-align: center;
-}
-.utleieRad{
-	width:100px;
-	
-}
-.utleieOversikt{
-   background-color: red; 
-   border: 1;
-}
-.utleie{
-	border: 1px dotted #000000; 
-
-}
-
 #utleieTable {
 	margin: 0 auto;
 }
@@ -433,7 +416,6 @@ article div.informasjon {
 	float: right;
 	width: 35%;
 }
-<<<<<<< HEAD
 
 .infoImg {
 	float: right;
@@ -527,5 +509,3 @@ a.active {
 .utleieBeskrivelse{
 	font-weight: bold;
 }
-=======
->>>>>>> origin/master
