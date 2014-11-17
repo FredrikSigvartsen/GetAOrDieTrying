@@ -120,10 +120,6 @@ td {
 	vertical-align: top;
 }
 
-/*table#djTable {
-	width: 100%;
-}*/
-
 /* unvisited link, visited link, active link */
 article a.utleieLink:link,
 article a.utleieLink:visited,
@@ -295,13 +291,9 @@ article a.anchor:hover {
 	float: left;
 }
 
-#rightDjImg {
+#rightDjDiv {
 	margin-right: 0;
 }
-/*td.DJ {
-	width: 25%; 
-	padding: 1.5vw;
-}*/
 
 #navLogo {
 	height: 75%;
@@ -455,4 +447,8 @@ a.active {
 .utleie{
 	border: 1px dotted #000000; 
 
+}
+
+#utleieTable {
+	margin: 0 auto;
 }
