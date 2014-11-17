@@ -3,10 +3,22 @@ setInterval(function() {
 
 	var elem1 = document.getElementById("bilde1");
 	var elem2 = document.getElementById("bilde2");
+	var elem3 = document.getElementById("bilde3");
+	var elem4 = document.getElementById("bilde4");
 	
-	if(elem2.style.opacity == "1") {
+	if(elem4.style.opacity == "1") {
 		elem1.style.transition = "opacity 1.5s linear 0s";
 		elem1.style.opacity = "1";
+		elem4.style.transition = "opacity 1.5s linear 0s";
+		elem4.style.opacity = "0";
+	} else if(elem3.style.opacity == "1") {
+		elem4.style.transition = "opacity 1.5s linear 0s";
+		elem4.style.opacity = "1";
+		elem3.style.transition = "opacity 1.5s linear 0s";
+		elem3.style.opacity = "0";
+	} else if(elem2.style.opacity == "1") {
+		elem3.style.transition = "opacity 1.5s linear 0s";
+		elem3.style.opacity = "1";
 		elem2.style.transition = "opacity 1.5s linear 0s";
 		elem2.style.opacity = "0";
 	} else {
@@ -16,7 +28,7 @@ setInterval(function() {
 		elem2.style.opacity = "1";
 	}
 	
-},3500);
+},4000);
 
 /*Menu*/
 var subnav = ["subnav1", "subnav2", "subnav3", "subnav4"];

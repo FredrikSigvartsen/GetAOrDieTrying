@@ -286,6 +286,15 @@ article a.anchor:hover {
 #bilde2 {
 	opacity: 0;
 }
+#bilde3 {
+	opacity: 0;
+}
+#bilde4 {
+	opacity: 0;
+}
+#bilde5 {
+	opacity: 0;
+}
 
 form {
 	float: left;
@@ -363,13 +372,16 @@ a.active {
 #forsideBilde {
 	box-shadow: 0px 5px 10px #000000;
 	margin-bottom: 10px;
+	width: 100%;
 }
 
 .publisert {
 	font-style: italic;
 	font-size: 80%;
 }
-
+#nyhetBilde {
+	width: 100%;
+}
 #nyhetSide1 {
 	display: block;
 }
