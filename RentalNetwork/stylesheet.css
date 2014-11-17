@@ -255,6 +255,10 @@ article a.anchor:hover {
 	margin: 0;
 	padding: 0;
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: -moz-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: -o-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: -ms-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
+	background: gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.8)), color-stop(100%,rgba(209,163,25,1)));
 	display: border-box;
 	box-shadow: -1px 5px 10px #000000;
 	z-index: 1;
