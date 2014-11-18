@@ -48,23 +48,6 @@ article.hoyreSpalte {
 	float: right;
 }
 
-#bilde1 {
-	opacity: 1;
-}
-
-#bilde2 {
-	opacity: 0;
-}
-#bilde3 {
-	opacity: 0;
-}
-#bilde4 {
-	opacity: 0;
-}
-#bilde5 {
-	opacity: 0;
-}
-
 /*header*/
 .headerImg {
 	width: 100%;
@@ -86,6 +69,23 @@ header {
 	float: left;
 	width: 100%;
 	height: 500px;
+}
+
+#bilde1 {
+	opacity: 1;
+}
+
+#bilde2 {
+	opacity: 0;
+}
+#bilde3 {
+	opacity: 0;
+}
+#bilde4 {
+	opacity: 0;
+}
+#bilde5 {
+	opacity: 0;
 }
 
 /*Nav-bar*/

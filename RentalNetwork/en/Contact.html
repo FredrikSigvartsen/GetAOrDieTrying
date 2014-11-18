@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="no">
+<html lang="en">
 	<head>
 		<link rel="stylesheet" type="text/css" href="../stylesheet.css"/>
-        <link rel="icon" href="../images/logo.ico" type="image/x-icon"/>
+		<link rel="icon" href="../images/logo.ico" type="image/x-icon"/>
 		<title>Rental Network Norway</title>
 		<meta charset="UTF-8">
 		<script src="../jssheet.js"></script>
@@ -10,8 +10,8 @@
 	<body>
 		<header>
 			<div class="navbar">
-				<a id="noEn" href="../Kontakt.html">NO</a>
-				<a href="Forside.html">  <img id="navLogo" src="../images/rnnlogo.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
+				<div id="noEn"><p><a href="../Kontakt.html">NO</a></p></div>
+				<a href="Forside.html"><img id="navLogo" src="../images/rnnlogo.png" alt="Rental Network Logo, and link to homepage" /></a>
 				<nav>
 					<ul>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
@@ -23,16 +23,17 @@
 								<li><a href="Info.html#russ">Russ</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Utleie.html">Rental</a>
+						<li><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Rental.html">Rental</a>
 							<ul id="subnav2">
-								<li><a href="rental/Lyd.html">Soundsystem</a></li>
-								<li><a href="rental/Lys.html">Lighting</a></li>
-								<li><a href="rental/Festival.html">Packages</a></li>
-								<li><a href="rental/Tilbehør.html">Equipment</a></li>
+								<li><a href="rental/Sound.html">Soundsystem</a></li>
+								<li><a href="rental/Lighting.html">Lighting</a></li>
+								<li><a href="rental/Packages.html">Packages</a></li>
+								<li><a href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
 						<li><a class="highlight" onmouseover="dropMenu()" onfocus="dropMenu()" href="Contact.html">Contact</a></li>
+					</ul>
 				</nav>
 			</div>
 			<img onmouseover="dropMenu()" class="headerImg" id="bilde1" src="../images/rnnimg1.jpg" alt=""/>
@@ -42,24 +43,18 @@
 			<img onmouseover="dropMenu()" class="headerImg" id="bilde5" src="../images/rnnimg5.jpg" alt=""/>
 		</header>
 		<section onmouseover="dropMenu()">
-			<!--<form action="demo_form.asp">
-			First name: <input type="text" name="FirstName" value="Mickey"><br>
-			Last name: <input type="text" name="LastName" value="Mouse"><br>
-			<input type="submit" value="Submit">
-			</form>  -->
-			<!-- Kontaktskjema hvor kunden skal fylle inn info og sende som mail til RNN -->
 			<article class="hovedSpalte">
 				<h1>Contact</h1>
 				<form method="POST" name="Kontktoss" action="Kontakt.php">
-					<p> Firmname?: <input type= "text" name="FirmaNavn" placeholder="Enter frimname" >  </p>
+					<p> Firmname?: <input type= "text" name="FirmaNavn" placeholder="Enter firm name" >  </p>
 					<p>	First name: <input type="text" name="Fornavn" required placeholder="Enter first name" >  </p>
 					<p> Last name: <input type="text" name="Etternavn" required placeholder="Enter last name" > </p>
 					<p> Phone: <input type="tel" name="TelefonNr" reqiured placeholder="Enter phone number" > </p>
-					<p> Email:  <input type="email" name="Email" required placeholder="Enter Email" > </p>
+					<p> E-mail:  <input type="email" name="Email" required placeholder="Enter Email" > </p>
 					<p> Event type:
 						<select name="TypeArang">
-							<option value="festival"> Festival </option>
-							<option value="russetreff"> Russetreff </option>
+							<option value="festival"> Big event </option>
+							<option value="russetreff"> Russ meeting </option>
 							<option value="privat"> Private event </option>
 							<option value="konsert"> Concert </option>
 							<option value="konferanse"> Conference </option>
@@ -73,7 +68,7 @@
 					<p> Brobekkveien 107, 0582 OSLO<br/><br/>
 						Org nr: 998 683 912 MVA<br/><br/>
 						Phone: +47 928 16 278<br/><br/>
-						Email: post@rn-norway.no
+						E-mail: post@rn-norway.no
 					</p>
 				</div>
 			</article>
@@ -86,14 +81,14 @@
 						<li>Rental Network Norway AS</li>
 						<li>Brobekkveien 107, 0582 OSLO</li>
 						<li>Org nr: 998 683 912 MVA</li>
-						<li>Tlf nr: +47 928 16 278</li>
-						<li>E-post: post@rn-norway.no</li>
+						<li>Phone: +47 928 16 278</li>
+						<li>E-mail: post@rn-norway.no</li>
 					</ul>
 				</div>
 				<div>
-					<h3>Meny</h3>
+					<h3>Menu</h3>
 					<ul>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Home</a></li>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
 						<li><a onmouseover="dropMenu('subnav3')" onfocus="dropMenu('subnav3')" href="Info.html">Info</a>
 							<ul id="subnav3">
 								<li><a href="Info.html#omOss">About us</a></li>
@@ -102,22 +97,26 @@
 								<li><a href="Info.html#russ">Russ</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Utleie.html">Rental</a>
+						<li><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Rental.html">Rental</a>
 							<ul class="utleieMeny" id="subnav4">
-								<li><a href="rental/Lyd.html">Soundsystem</a></li>
-								<li><a href="rental/Lys.html">Lighting</a></li>
-								<li><a href="rental/Festival.html">Packages</a></li>
-								<li><a href="rental/Tilbehør.html">Equipment</a></li>
+								<li><a href="rental/Sound.html">Sound</a></li>
+								<li><a href="rental/Lighting.html">Light</a></li>
+								<li><a href="rental/Packages.html">Packages</a></li>
+								<li><a href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li><a href="Kontakt.html">Contact</a></li>
+						<li><a href="Contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div>
 					<h3>Social media</h3>
-					<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="../images/facebook.png" alt="Bilde av Facebook sin logo"/></a>
-					<a href="http://instagram.com/rentalnetworknorway"><img src="../images/instagram.png" alt="Bilde av Instagram sin logo"/></a>
+					<span title="Link to our facebookpage">
+						<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="../images/facebook.png" alt="Picture of Facebook logo. Links to our facebookpage"/></a>
+						</span>
+					<span title="Link to our instagramprofile">
+						<a href="http://instagram.com/rentalnetworknorway"><img src="../images/instagram.png" alt="Picture of Instagram logo. Links to our instagramprofile"/></a>
+					</span>
 				</div>
 			</div>
 		</footer>
