@@ -16,5 +16,5 @@ $epost_melding = "Ny melding\n".
 	
 mail($til, $epost_emne, $epost_melding);
 
-header('Location: Kontaktsendt.html'); 
+header('Location: Contactsent.html'); 
 ?>

@@ -5,13 +5,13 @@
         <link rel="icon" href="../images/logo.ico" type="image/x-icon"/>
 		<title>Rental Network Norway</title>
 		<meta charset="UTF-8">
-		<script src="jssheet.js"></script>
+		<script src="../jssheet.js"></script>
 	</head>
 	<body>
 		<header>
 			<div class="navbar">
-				<a id="noEn" href="../Kontakt.html">NO</a>
-				<a href="Forside.html">  <img id="navLogo" src="../images/rnnlogo.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
+				<div id="noEn"><p><a href="../Kontaktsendt.html">NO</a></p></div>
+				<a href="Frontpage.html"><img id="navLogo" src="../images/rnnlogo.png" alt="Rental Network Logo, and link to homepage" /></a>
 				<nav>
 					<ul>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
@@ -23,16 +23,17 @@
 								<li><a href="Info.html#russ">Russ</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Utleie.html">Rental</a>
+						<li><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Rental.html">Rental</a>
 							<ul id="subnav2">
-								<li><a href="utleie/Lyd.html">Soundsystem</a></li>
-								<li><a href="utleie/Lys.html">Lighting</a></li>
-								<li><a href="utleie/Festival.html">Packages</a></li>
-								<li><a href="utleie/Tilbehør.html">Equipment</a></li>
+								<li><a href="rental/Sound.html">Soundsystem</a></li>
+								<li><a href="rental/Lighting.html">Lighting</a></li>
+								<li><a href="rental/Packages.html">Packages</a></li>
+								<li><a href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
 						<li><a class="highlight" onmouseover="dropMenu()" onfocus="dropMenu()" href="Contact.html">Contact</a></li>
+					</ul>
 				</nav>
 			</div>
 			<img onmouseover="dropMenu()" class="headerImg" id="bilde1" src="../images/rnnimg1.jpg" alt=""/>
@@ -49,7 +50,9 @@
 			</form>  -->
 			<!-- Kontaktskjema hvor kunden skal fylle inn info og sende som mail til RNN -->
 			<article class="hovedSpalte">
-				<p><h2>Your email has been sent! We will contact you ass soon as possible</h2></p>
+				<div id="kontaktSendt">
+					<p><h2>Your email has been sent! We will contact you as soon as possible</h2></p>
+				</div>
 			</article>
 		</section>
 		<footer>
@@ -59,15 +62,15 @@
 					<ul>
 						<li>Rental Network Norway AS</li>
 						<li>Brobekkveien 107, 0582 OSLO</li>
-						<li>Org nr: 998 683 912 MVA</li>
-						<li>Tlf nr: +47 928 16 278</li>
-						<li>E-post: post@rn-norway.no</li>
+						<li>Org nr: 998 683 912&zwnj; MVA</li>
+						<li>Phone:&zwnj; +47&zwnj; 928&zwnj; 16&zwnj; 278</li>  <!--&nbsp; funket ikke på iphone5, så jeg fant &zwnj; og det virket.. ?!-->
+						<li>E-mail: post@rn-norway.no</li>
 					</ul>
 				</div>
 				<div>
-					<h3>Meny</h3>
+					<h3>Menu</h3>
 					<ul>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Home</a></li>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
 						<li><a onmouseover="dropMenu('subnav3')" onfocus="dropMenu('subnav3')" href="Info.html">Info</a>
 							<ul id="subnav3">
 								<li><a href="Info.html#omOss">About us</a></li>
@@ -76,22 +79,26 @@
 								<li><a href="Info.html#russ">Russ</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Utleie.html">Rental</a>
+						<li><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Rental.html">Rental</a>
 							<ul class="utleieMeny" id="subnav4">
-								<li><a href="rental/Lyd.html">Soundsystem</a></li>
-								<li><a href="rental/Lys.html">Lighting</a></li>
-								<li><a href="rental/Festival.html">Packages</a></li>
-								<li><a href="rental/Tilbehør.html">Equipment</a></li>
+								<li><a href="rental/Sound.html">Sound</a></li>
+								<li><a href="rental/Lighting.html">Light</a></li>
+								<li><a href="rental/Packages.html">Packages</a></li>
+								<li><a href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li><a href="Kontakt.html">Contact</a></li>
+						<li><a href="Contact.html">Contact</a></li>
 					</ul>
 				</div>
 				<div>
 					<h3>Social media</h3>
-					<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="../images/facebook.png" alt="Bilde av Facebook sin logo"/></a>
-					<a href="http://instagram.com/rentalnetworknorway"><img src="../images/instagram.png" alt="Bilde av Instagram sin logo"/></a>
+					<span title="Link to our facebookpage">
+						<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="../images/facebook.png" alt="Picture of Facebook logo. Links to our facebookpage"/></a>
+						</span>
+					<span title="Link to our instagramprofile">
+						<a href="http://instagram.com/rentalnetworknorway"><img src="../images/instagram.png" alt="Picture of Instagram logo. Links to our instagramprofile"/></a>
+					</span>
 				</div>
 			</div>
 		</footer>

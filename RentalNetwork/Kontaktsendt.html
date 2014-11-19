@@ -10,7 +10,7 @@
 	<body>
 		<header>
 			<div class="navbar">
-				<a id="noen" href="no.html">no/en</a>
+				<div id="noEn"><p><a href="en/Contactsent.html">EN</a></p></div>
 				<a href="Forside.html">  <img id="navLogo" src="images/rnnlogo.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
 				<nav>
 					<ul>
@@ -35,10 +35,12 @@
 						<li><a class="highlight" onmouseover="dropMenu()" onfocus="dropMenu()" href="Kontakt.html">Kontakt</a></li>
 					</ul>
 				</nav>
-				<a href="Forside.html">  <img id="navLogo" src="images/rnnlogo.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
 			</div>
-			<img onmouseover="dropMenu()" class="headerImg" id="bilde1" src="images/test3.jpg" alt="Party bilde"/>
-			<img onmouseover="dropMenu()" class="headerImg" id="bilde2" src="images/test4.jpg" alt="Party bilde"/>
+			<img onmouseover="dropMenu()" class="headerImg" id="bilde1" src="images/rnnimg1.jpg" alt=""/>
+			<img onmouseover="dropMenu()" class="headerImg" id="bilde2" src="images/rnnimg2.jpg" alt=""/>
+			<img onmouseover="dropMenu()" class="headerImg" id="bilde3" src="images/rnnimg3.jpg" alt=""/>
+			<img onmouseover="dropMenu()" class="headerImg" id="bilde4" src="images/rnnimg4.jpg" alt=""/>
+			<img onmouseover="dropMenu()" class="headerImg" id="bilde5" src="images/rnnimg5.jpg" alt=""/>
 		</header>
 		<section onmouseover="dropMenu()">
 			<!--<form action="demo_form.asp">
@@ -48,18 +50,22 @@
 			</form>  -->
 			<!-- Kontaktskjema hvor kunden skal fylle inn info og sende som mail til RNN -->
 			<article class="hovedSpalte">
-				<p><h2>Eposten er sendt! Vi tar kontakt med deg så fort som mulig.</h2></p>
+				<div id="kontaktSendt">
+					<p><h2>Eposten er sendt! Vi tar kontakt med deg så fort som mulig.</h2></p>
+				</div>
 			</article>
 		</section>
 		<footer>
 			<div class="footerwrap">
 				<div>
 					<h3>Kontakt</h3>
-					<h5>Rental Network Norway AS</h5>
-					<h5>Brobekkveien 107, 0582 OSLO</h5>
-					<h5>Org nr: 998 683 912 MVA</h5>
-					<h5>Tlf nr: +47 928 16 278</h5>
-					<h5>E-post: post@rn-norway.no</h5>
+					<ul>
+						<li>Rental Network Norway AS</li>
+						<li>Brobekkveien 107, 0582 OSLO</li>
+						<li>Org nr: 998 683 912&zwnj; MVA</li>
+						<li>Tlf nr:&zwnj; +47&zwnj; 928&zwnj; 16&zwnj; 278</li>  <!--&nbsp; funket ikke på iphone5, så jeg fant &zwnj; og det virket.. ?!-->
+						<li>E-post: post@rn-norway.no</li>
+					</ul>
 				</div>
 				<div>
 					<h3>Meny</h3>
@@ -87,8 +93,12 @@
 				</div>
 				<div>
 					<h3>Sosiale medier</h3>
-					<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="images/facebook.png" alt="Bilde av Facebook sin logo"/></a>
-					<a href="http://instagram.com/rentalnetworknorway"><img src="images/instagram.png" alt="Bilde av Instagram sin logo"/></a>
+					<span title="Link til vår facebookside.">
+						<a href="https://www.facebook.com/RentalNetworkNorwayAS"><img src="images/facebook.png" alt="Bilde av Facebook sin logo"/></a>
+					</span>
+					<span title="Link til vår instagramprofil.">
+						<a href="http://instagram.com/rentalnetworknorway"><img src="images/instagram.png" alt="Bilde av Instagram sin logo"/></a>
+					</span>
 				</div>
 			</div>
 		</footer>

@@ -472,6 +472,9 @@ and (max-width : 768px) {
 			margin-top: 1.5%;
 			margin-left: 3%;
 		}
+		.navbar {
+			height: 170px;
+		}
 		nav {
 			margin-right: -5%;
 			width: 65%;
@@ -511,16 +514,27 @@ and (max-width : 768px) {
 		}
 		/*footer*/
 		footer {
-			height: 29vh;
+			height: 250px;
 			font-size: 1.7vw;
 		}
 		footer div.footerwrap {
 			width: 97%;
 			margin-left: 3%;
 		}
+		footer ul ul#subnav3 {
+			top: 12.5%;
+			left: 10%;
+		}
+		footer ul ul#subnav4 {
+			left: 19%;
+			top: 36%;
+		}
 		/*INFO SIDE*/
 		#infoImg {
 			width: 61%;
+		}
+		article a.anchor {
+			padding-top: 185px;
 		}
 		/*UTELEIE SIDE*/
 		.utleieBilde {
@@ -536,7 +550,11 @@ and (max-width : 768px) {
 		textarea {
 			width: 173.4%;
 			height: 300px;
-		}	
+		}
+		#kontaktSendt {
+			min-height: 385px;
+			width: 100%;
+		}
 }
 
 @media only screen 
