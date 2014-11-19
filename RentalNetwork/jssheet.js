@@ -5,14 +5,28 @@ setInterval(function() {
 	var elem2 = document.getElementById("bilde2");
 	var elem3 = document.getElementById("bilde3");
 	var elem4 = document.getElementById("bilde4");
+	var elem5 = document.getElementById("bilde5");
 	
-	if(elem4.style.opacity == "1") {
+	if(elem5.style.opacity == "1") {
 		elem1.style.WebkitTransition = "opacity 1.5s linear 0s";
 			elem1.style.MozTransition = "opacity 1.5s linear 0s";
 				elem1.style.OTransition = "opacity 1.5s linear 0s";
 					elem1.style.MsTransition = "opacity 1.5s linear 0s";
 						elem1.style.transition = "opacity 1.5s linear 0s";
 		elem1.style.opacity = "1";
+		elem5.style.WebkitTransition = "opacity 1.5s linear 0s";
+			elem5.style.MozTransition = "opacity 1.5s linear 0s";
+				elem5.style.OTransition = "opacity 1.5s linear 0s";
+					elem5.style.MsTransition = "opacity 1.5s linear 0s";
+						elem5.style.transition = "opacity 1.5s linear 0s";
+		elem5.style.opacity = "0";
+	} else if(elem4.style.opacity == "1") {
+		elem5.style.WebkitTransition = "opacity 1.5s linear 0s";
+			elem5.style.MozTransition = "opacity 1.5s linear 0s";
+				elem5.style.OTransition = "opacity 1.5s linear 0s";
+					elem5.style.MsTransition = "opacity 1.5s linear 0s";
+						elem5.style.transition = "opacity 1.5s linear 0s";
+		elem5.style.opacity = "1";
 		elem4.style.WebkitTransition = "opacity 1.5s linear 0s";
 			elem4.style.MozTransition = "opacity 1.5s linear 0s";
 				elem4.style.OTransition = "opacity 1.5s linear 0s";
@@ -76,7 +90,7 @@ var subnav = ["subnav1", "subnav2", "subnav3", "subnav4"];
 		}
 	}
 
-/*Nyheter*/
+/*News*/
 var nyhetSide = ["nyhetSide1", "nyhetSide2"];
 function byttNyhet(el) {
 	for (var i in nyhetSide) {
