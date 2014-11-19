@@ -310,7 +310,7 @@ span {
 	font-size: 150%;
 }
 
-#nyhetNav {
+.nyhetNav {
 	font-size: 150%;
 	text-align: center;
 }
@@ -321,7 +321,7 @@ span {
 	width: 100%;
 }
 
-#nyhetBilde {
+.nyhetBilde {
 	width: 100%;
 }
 
