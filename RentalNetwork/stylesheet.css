@@ -170,7 +170,7 @@ nav ul li {
 		border-bottom: 4px solid #D1A319;
 	}
 		nav ul li a:hover, nav ul li a:focus, nav ul li a:active {
-			outline: 0;
+			/*outline: 0;*/
 			border-bottom: 4px solid #000000;
 		}
 		nav ul li a.highlight {
@@ -255,6 +255,9 @@ footer {
 			clear: both; 
 			display: block;
 		}
+		footer ul.footerMeny > li {
+			width: 0;
+		}
 		footer ul li {
 			margin-top: 12px;
 			margin-bottom: 0;
@@ -266,7 +269,7 @@ footer {
 				color: #F9F9F9;
 			}
 				footer ul li a:hover, footer ul li a:focus, footer ul li a:active {
-					outline: 0;
+					/*outline: 0;*/
 					color: #D1A319;
 				}
 	footer ul ul#subnav3 {
