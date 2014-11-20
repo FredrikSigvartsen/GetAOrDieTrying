@@ -561,6 +561,105 @@ and (max-device-width : 768px) {
 }
 
 @media only screen 
+and (min-width : 501px) 
+and (max-width : 768px) {
+		/* tablets */
+		/*ALLE SIDER*/
+		/*header*/
+		h1 {
+			font-size: 3.2vw;
+		}
+		#navLogo {
+			width: 11%;
+			margin-top: 1.5%;
+			margin-left: 3%;
+		}
+		.navbar {
+			/*height: 170px;*/
+		}
+		nav {
+			margin-right: -5%;
+			width: 65%;
+		}
+		nav ul {
+			font-size: 2.5vw;
+		}
+		nav ul ul li {
+			width: 150%;
+		}
+		nav ul ul li a {
+			width: 100%;
+			font-size: 2vw;
+		}
+		div#noEn {
+			width: 3%;
+			font-size: 1.5vw;
+		}
+		/*hoved innhold*/
+		section {
+			width: 100%;
+		}
+		article.venstreSpalte {
+			width: 65%;
+			float: left;
+			margin-left:3%
+		}
+		article.hoyreSpalte {
+			width: 25%;
+			float: right;
+			margin-right: 3%;
+		}
+		article.hovedSpalte {
+			width: 94%;
+			margin-left: 3%;
+			float: left;
+		}
+		/*footer*/
+		footer {
+			/*height: 250px;*/
+			font-size: 1.7vw;
+		}
+		footer div.footerwrap {
+			width: 97%;
+			margin-left: 3%;
+		}
+		footer ul ul#subnav3 {
+			top: 12.5%;
+			left: 10%;
+		}
+		footer ul ul#subnav4 {
+			left: 19%;
+			top: 36%;
+		}
+		/*INFO SIDE*/
+		#infoImg {
+			width: 61%;
+		}
+		article a.anchor {
+			padding-top: 135px;
+		}
+		/*UTELEIE SIDE*/
+		.utleieBilde {
+			width: 80%;
+		}
+		/*KONTAKT SIDE*/
+		article div.informasjon {
+			width: 35%;
+		}
+		form {
+			width: 57%;
+		}
+		textarea {
+			width: 173.4%;
+			height: 300px;
+		}
+		#kontaktSendt {
+			min-height: 385px;
+			width: 100%;
+		}
+}
+
+@media only screen 
 and (max-device-width:500px) {
    /* Mobile */
 	/*ALLE SIDER*/
@@ -639,6 +738,120 @@ and (max-device-width:500px) {
 		}
 		article a.anchor {
 			padding-top: 180px;
+		}
+		/*UTELEIE SIDE*/
+		.utleieBilde {
+			width: 80%;
+		}
+		.festival {
+			font-size: 90%;
+		}
+		/*DJ SIDE*/
+		.dj {
+			width: 100%;
+			margin-right: 0;
+		}
+		/*KONTAKT SIDE*/
+		article div.informasjon {
+			width: 100%;
+			float: left;
+		}
+		form {
+			width: 100%;
+			float: left;
+		}
+		textarea {
+			width: /*173.4%*/100%;
+			height: 300px;
+		}
+		h3 {
+			font-size: 3.5vw;
+		}
+		#kontaktSendt {
+			min-height: 520px;
+			width: 100%;
+		}
+}
+
+@media only screen 
+and (max-width:500px) {
+   /* Mobile */
+	/*ALLE SIDER*/
+		/*header*/
+		h1 {
+			font-size: 4.7vw;
+		}
+		.navbar {
+			/*height: 170px;*/
+		}
+		#navLogo {
+			height: 70%;
+			width: 14%;
+			margin-top: 2.8%;
+			margin-left: 3%;
+		}
+		nav {
+			margin-right: -8%;
+			width: 84%;
+		}
+		nav ul {
+			font-size: 3.2vw;
+		}
+		nav ul ul li {
+			width: 150%;
+		}
+		nav ul ul li a {
+			width: 100%;
+			font-size: 2.7vw;
+		}
+		div#noEn {
+			width: 4%;
+			font-size: 2.3vw;
+		}
+		/*hoved innhold*/
+		section {
+			width: 100%;
+		}
+		article.venstreSpalte {
+			width: 94%;
+			float: left;
+			margin-left:3%
+		}
+		article.hoyreSpalte {
+			width: 94%;
+			float: left;
+			margin-left: 3%;
+		}
+		article.hovedSpalte {
+			width: 94%;
+			margin-left: 3%;
+			float: left;
+		}
+		/*footer*/
+		footer {
+			/*height: 320px;*/
+			font-size: 2.1vw;
+		}
+		footer div.footerwrap {
+			width: 97%;
+			margin-left: 3%;
+		}
+		footer ul ul#subnav3 {
+			top: 14%;
+			left: 22%;
+		}
+		footer ul ul#subnav4 {
+			left: 17%;
+			top: 35%;
+		}
+		/*INFO SIDE*/
+		#infoImg {
+			width: 61%;
+			margin-left:10px;
+			margin-top: 10px;
+		}
+		article a.anchor {
+			padding-top: 150px;
 		}
 		/*UTELEIE SIDE*/
 		.utleieBilde {
