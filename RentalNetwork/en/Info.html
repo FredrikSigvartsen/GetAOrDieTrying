@@ -11,7 +11,7 @@
 		<header>
 			<div class="navbar">
 				<div id="noEn"><p><a href="../Info.html" title="Norwegian version of the page">NO</a></p></div>
-				<a href="Frontpage.html"><img id="navLogo" src="../images/rnnlogo.png" alt="Rental Network Logo, and link to homepage" /></a>
+				<a href="Frontpage.html"><img id="navLogo" src="../images/rnnlogo2.png" alt="Rental Network Logo, and link to homepage" /></a>
 				<nav>
 					<ul>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
@@ -98,7 +98,7 @@
 			<div class="footerwrap">
 				<div>
 					<h3>Contact</h3>
-					<ul>
+					<ul id="footerKontaktListe">
 						<li>Rental Network Norway AS</li>
 						<li>Brobekkveien 107, 0582 OSLO</li>
 						<li>Org nr: 998 683 912&zwnj; MVA</li>
@@ -109,8 +109,8 @@
 				<div>
 					<h3>Menu</h3>
 					<ul class="footerMeny">
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Home</a></li>
-						<li><a onmouseover="dropMenu('subnav3')" onfocus="dropMenu('subnav3')" href="Info.html">Info</a>
+						<li id="footerHjem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Home</a></li>
+						<li id="footerInfo"><a onmouseover="dropMenu('subnav3')" onfocus="dropMenu('subnav3')" href="Info.html">Info</a>
 							<ul id="subnav3">
 								<li><a href="Info.html#omOss">About us</a></li>
 								<li><a href="Info.html#utleie">Rental</a></li>
@@ -118,7 +118,7 @@
 								<li><a href="Info.html#russ">Russ</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Rental.html">Rental</a>
+						<li id="footerUtleie"><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Rental.html">Rental</a>
 							<ul class="utleieMeny" id="subnav4">
 								<li><a href="rental/Sound.html">Sound</a></li>
 								<li><a href="rental/Lighting.html">Light</a></li>
@@ -126,8 +126,8 @@
 								<li><a href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li><a href="Kontakt.html">Contact</a></li>
+						<li id="footerDJ"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li id="footerKontakt"><a href="Kontakt.html">Contact</a></li>
 					</ul>
 				</div>
 				<div>
