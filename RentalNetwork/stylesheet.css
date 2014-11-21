@@ -301,7 +301,10 @@ footer {
 		width: 100%;
 		position: absolute;
 		left: 15%;
-		top: 13.8%;
+		top: 13.5%;
+	}
+	footer ul ul.footerMenuEnglish {
+		left: 16% !important;
 	}
 		footer ul ul li {
 			float: left;
