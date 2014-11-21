@@ -11,7 +11,7 @@
 		<header>
 			<div class="navbar">
 				<div id="noEn"><p><a href="en/Frontpage.html" title="English version of the page">EN</a></p></div>
-				<a href="Forside.html">  <img id="navLogo" src="images/rnnlogo.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
+				<a href="Forside.html">  <img id="navLogo" src="images/rnnlogo2.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
 				<nav>
 					<ul>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html" class="highlight">Hjem</a></li>
@@ -49,7 +49,7 @@
 				<p> Vi i Rental Network Norway er din ekspert på arrangement. Festivaler, konserter, konferanser, privatfest, og firmafest er noen av mange arrangementer vi kan ordne for deg. 	
 					Uansett arrangement, kan vi fikse utstyr av høy kvalitet til deg! 	Hvis du skulle være interessert i samarbeid er det bare å ta <a href="Kontakt.html">kontakt.</a>
 				</p>
-				<span title="Kundedemonstrasjon av L-ACOUSTICS i vår avd. i Bergen">
+				<span title="Bilde av en Rental Network Norway ansatt i norsk natur">
 					<img id="forsideBilde" src="images/forsideBilde.jpg" alt="Bilde av en Rental Network Norway ansatt i norsk natur"/>
 				</span>
 				<h3>Freelance eller dugnad?</h3>
@@ -60,7 +60,7 @@
 			<article class="hoyreSpalte">
 				<h1>Nyheter</h1>
 				<div id="nyhetSide1">
-					<h3> Extremsport kamera GoPro Hero 3+ tilgjengelig for utleie! </h3>
+					<h3><a name="nyhet1" class="anchor">Extremsport kamera GoPro Hero 3+ tilgjengelig for utleie!</a></h3>
 						<p> RNN har nå fått inn 6 nye GoPro Hero 3+ edition extremesport kameraer sammen med mye spennende og nyttig tilbehør, i sin utleieavdeling!
 							Disse kameraene er stappet med knallgode specs og egner seg perfekt til mindre filmproduksjoner som inkluderer extremsport, eventer ol.
 							For booking eller spørsmål om PA-systemet,<br/> kontakt: post@rn-norway.no<br/>
@@ -72,14 +72,14 @@
 						<p class="publisert"> Publisert den 13.01.14 av RNN </p>
 						<p class="nyhetNav">
 							<span>&#x00AB </span> 
-							1 <a onclick="byttNyhet('nyhetSide1')" class="active" href="#">2</a> 
+							1 <a onclick="byttNyhet('nyhetSide1')" class="active" href="#nyhet2">2</a> 
 							<span>
-								<a onclick="byttNyhet('nyhetSide1')" class="active" href="#">&#x00BB</a>
+								<a onclick="byttNyhet('nyhetSide1')" class="active" href="#nyhet2">&#x00BB</a>
 							</span>
 						</p>
 				</div>
 				<div id="nyhetSide2">
-					<h3>Nytt flaggskip fra L-ACOUSTICS!</h3>
+					<h3><a name="nyhet2" class="anchor">Nytt flaggskip fra <br/>L-ACOUSTICS!</a></h3>
 						<p> L-ACOUSTICS lanserer snart sitt nye PA system, K2 og vi gleder oss enormt til å teste ut dette på festivalfronten i sommer!
 							Systemet inneholder de samme kvalitetene som langkaster systemet K1 men skal være mye mere egnet for konsert / festival jobbene
 							som må ta hensyn til støy for omgivelsene. For booking eller spørsmål om PA-systemet, <br/>kontakt: post@rn-norway.no
@@ -91,9 +91,9 @@
 						<p class="publisert">Publisert den 18.11.13 av RNN</p>
 						<p class="nyhetNav">
 							<span>
-								<a onclick="byttNyhet('nyhetSide2')" class="active" href="#">&#x00AB</a>
+								<a onclick="byttNyhet('nyhetSide2')" class="active" href="#nyhet1">&#x00AB</a>
 							</span> 
-							<a onclick="byttNyhet('nyhetSide2')" class="active" href="#">1</a> 2 
+							<a onclick="byttNyhet('nyhetSide2')" class="active" href="#nyhet1">1</a> 2 
 							<span>&#x00BB </span>
 						</p>
 				</div>
@@ -103,7 +103,7 @@
 			<div class="footerwrap">
 				<div>
 					<h3>Kontakt</h3>
-					<ul>
+					<ul id="footerKontaktListe">
 						<li>Rental Network Norway AS</li>
 						<li>Brobekkveien 107, 0582 OSLO</li>
 						<li>Org nr: 998 683 912&zwnj; MVA</li>
@@ -114,8 +114,8 @@
 				<div>
 					<h3>Meny</h3>
 					<ul class="footerMeny">
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
-						<li><a onmouseover="dropMenu('subnav3')" onfocus="dropMenu('subnav3')" href="Info.html">Info</a>
+						<li id="footerHjem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
+						<li id="footerInfo"><a onmouseover="dropMenu('subnav3')" onfocus="dropMenu('subnav3')" href="Info.html">Info</a>
 							<ul id="subnav3">
 								<li><a href="Info.html#omOss">Om oss</a></li>
 								<li><a href="Info.html#utleie">Utleie</a></li>
@@ -123,7 +123,7 @@
 								<li><a href="Info.html#russ">Russ</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Utleie.html">Utleie</a>
+						<li id="footerUtleie"><a onmouseover="dropMenu('subnav4')" onfocus="dropMenu('subnav4')" href="Utleie.html">Utleie</a>
 							<ul id="subnav4">
 								<li><a href="utleie/Lyd.html">Lyd</a></li>
 								<li><a href="utleie/Lys.html">Lys</a></li>
@@ -131,8 +131,8 @@
 								<li><a href="utleie/Tilbehør.html">Tilbehør</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li><a href="Kontakt.html">Kontakt</a></li>
+						<li id="footerDJ"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li id="footerKontakt"><a href="Kontakt.html">Kontakt</a></li>
 					</ul>
 				</div>
 				<div>
