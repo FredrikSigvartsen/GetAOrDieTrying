@@ -387,7 +387,7 @@ article a.anchor:hover {
 article a.utleieLink {
     color: #2E2E2E;
 	text-decoration: none;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: bold;
 }
 
@@ -395,14 +395,30 @@ article a.utleieLink:hover {
     border-bottom: 1px solid #FF3030;
 }
 
-.utleieTabell{
+/*.utleieTabell{
 	padding-left: 2.5em;
 	padding-right: 2.5em;
-	text-align: center;
 }
 
 #utleieTable {
 	margin: 0 auto;
+}*/
+.utleieBilde {
+	width: 100%;
+}
+#utleieDivHoyre {
+	margin-right: 0;
+}
+.utleieWrap div {
+	float: left;
+	width: 20%;
+	margin-right: 6%;
+}
+.utleieWrap {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin-top: 3%;
 }
 
 th img{
