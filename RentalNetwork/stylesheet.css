@@ -237,8 +237,6 @@ footer {
 			margin-right: 5%;
 			margin-top: 5%;
 			margin-left: 10.5%;
-			border-radius: 20px;
-			box-shadow: -5px 10px 10px #000000;
 		}
 
 	footer ul {
@@ -590,7 +588,7 @@ and (max-width : 768px) {
 		h1 {
 			font-size: 3.2vw;
 		}
-		#navLogo {
+		#navLogo {/**********************************************************************/
 			margin-top: 1.5%;
 			margin-left: 3%;
 		}
