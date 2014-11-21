@@ -114,7 +114,11 @@ nav {
 	width: 43%;
 	position: absolute;
 	margin-top: 6.07%;
-	margin-right: 6%;
+	margin-right: 3%;
+}
+
+nav#headerMenuEn {
+	margin-right: 4.8%;
 }
 
 div#noEn{
@@ -159,7 +163,7 @@ nav ul {
 nav ul li {
 	float: left;
 	height: 100%;
-	margin-right: 10%;
+	margin-right: 8%;
 }
 	nav ul li a {
 		display: block;
@@ -341,9 +345,8 @@ span {
 	text-align: center;
 }
 
-#forsideBilde {
-	box-shadow: 0px 5px 10px #000000;
-	margin-bottom: 10px;
+img.forsideBilde {
+	box-shadow: 0px 0px 10px #000000;
 	width: 100%;
 }
 
@@ -368,18 +371,8 @@ article a.anchor:hover {
 	width: 61%;
 	float: right;
 	margin-top: 5px;
-	margin-left: 5px;
-	box-shadow: 0px 5px 10px #000000;
-}
-
-#infoImg1 {
-	width: 100%;
-	box-shadow: 0px 5px 10px #000000;
-}
-
-#infoImg2 {
-	width: 100%;
-	box-shadow: 0px 5px 10px #000000;
+	margin-left: 10px;
+	box-shadow: 0px 0px 10px #000000;
 }
 
 .linje {
@@ -399,16 +392,9 @@ article a.utleieLink:hover {
     border-bottom: 1px solid #FF3030;
 }
 
-/*.utleieTabell{
-	padding-left: 2.5em;
-	padding-right: 2.5em;
-}
-
-#utleieTable {
-	margin: 0 auto;
-}*/
 .utleieBilde {
 	width: 100%;
+	box-shadow: 0px 0px 10px #000000;
 }
 #utleieDivHoyre {
 	margin-right: 0;
@@ -452,6 +438,7 @@ th img{
 /*DJ SIDE*/
 .djImg {
 	width: 100%;
+	box-shadow: 0px 0px 10px #000000;
 }
 
 .dj {
