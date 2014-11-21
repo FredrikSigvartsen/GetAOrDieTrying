@@ -111,10 +111,10 @@ nav {
 	bottom: 0;
 	right: 0;
 	height: 30%;
-	width: 40%;
+	width: 43%;
 	position: absolute;
 	margin-top: 6.07%;
-	margin-right: 8%;
+	margin-right: 6%;
 }
 
 div#noEn{
@@ -254,11 +254,20 @@ footer {
 		footer ul.footerMeny li#footerHjem {
 			width: 12%;/**/
 		}
+		footer ul.footerMeny li#footerHjemEn {
+			width: 13%;/**/
+		}
 		footer ul.footerMeny li#footerInfo {
 			width: 16.5%;/**/
 		}
+		footer ul.footerMeny li#footerInfoEn{
+			width: 20%;
+		}
 		footer ul.footerMeny li#footerUtleie{
 			width: 13%;/**/
+		}
+		footer ul.footerMeny li#footerUtleieEn{
+			width: 14%;/**/
 		}
 		footer ul.footerMeny li#footerDJ{
 			width: 6%;/**/
@@ -292,7 +301,7 @@ footer {
 		width: 100%;
 		position: absolute;
 		left: 15%;
-		top: 14%;
+		top: 13.8%;
 	}
 		footer ul ul li {
 			float: left;
