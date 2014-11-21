@@ -76,7 +76,7 @@ setInterval(function() {
 },4000);
 
 /*Menu*/
-var subnav = ["subnav1", "subnav2", "subnav3", "subnav4"];
+var subnav = ["subnav1", "subnav2"];
 	function dropMenu(x) {
 		for (var i in subnav) {
 			if(subnav[i] != x) {

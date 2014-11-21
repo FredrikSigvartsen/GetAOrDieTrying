@@ -114,7 +114,7 @@ nav {
 	width: 40%;
 	position: absolute;
 	margin-top: 6.07%;
-	margin-right: 5.5%;
+	margin-right: 8%;
 }
 
 div#noEn{
@@ -255,7 +255,7 @@ footer {
 			width: 12%;/**/
 		}
 		footer ul.footerMeny li#footerInfo {
-			width: 8%;/**/
+			width: 16.5%;/**/
 		}
 		footer ul.footerMeny li#footerUtleie{
 			width: 13%;/**/
@@ -286,21 +286,13 @@ footer {
 				/*color: #FF3030;*/
 				border-bottom: 1px solid #FF3030;/**/
 			}
-	footer ul ul#subnav3 {
-		display: none;
-		float: none;
-		width: 100%;
-		top: 12.5%;
-		left: 10%;
-		position: absolute;
-	}
-	footer ul ul#subnav4 {
+	footer ul ul#subnav2 {
 		display: none;
 		float: none;
 		width: 100%;
 		position: absolute;
 		left: 15%;
-		top: 34%;
+		top: 14%;
 	}
 		footer ul ul li {
 			float: left;
