@@ -346,19 +346,20 @@ span {
 }
 
 img.forsideBilde {
-	box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 3px #000000;
 	width: 100%;
 }
 
 .nyhetBilde {
 	width: 100%;
+	box-shadow: 0px 0px 3px #000000;
 }
 
 a.active { 
 	color: #FF3030;;
 }
 		
-/*INFO SIDEN*/
+/*OM OSS SIDEN*/
 article a.anchor {
 	padding-top: 21vh;/*150px*/;
 }
@@ -372,7 +373,7 @@ article a.anchor:hover {
 	float: right;
 	margin-top: 5px;
 	margin-left: 10px;
-	box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 3px #000000;
 }
 
 .linje {
@@ -394,7 +395,7 @@ article a.utleieLink:hover {
 
 .utleieBilde {
 	width: 100%;
-	box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 3px #000000;
 }
 #utleieDivHoyre {
 	margin-right: 0;
@@ -438,7 +439,7 @@ th img{
 /*DJ SIDE*/
 .djImg {
 	width: 100%;
-	box-shadow: 0px 0px 10px #000000;
+	box-shadow: 0px 0px 3px #000000;
 }
 
 .dj {
