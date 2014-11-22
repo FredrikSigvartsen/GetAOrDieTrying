@@ -98,10 +98,41 @@ function lockHeader() {
 	if (elem.style.position == "absolute") {
 		elem.style.position = "fixed";
 		elem1.innerHTML = "Lock header";
+		setCookie("headerCookie", "locked")
 	} else {
 		elem.style.position = "absolute";
 		elem1.innerHTML = "Unlock header";
+		setCookie("headerCookie", "unlocked");
 	}		
+}
+
+function checkCookie() {
+	var elem = document.getElementById("navbar");
+	var elem1 = document.getElementById("lockHeader");
+	var cookieValue = getCookie("headerCookie");
+	
+	if (cookieValue == "unlocked") {
+		elem.style.position = "absolute";
+		elem1.innerHTML = "Unlock header";
+	}
+}
+
+/*Cookie*/
+function setCookie(cname, cvalue) {
+    document.cookie = cname + "=" + cvalue;
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') 
+			c = c.substring(1);
+        if (c.indexOf(name) != -1) 
+			return c.substring(name.length, c.length);
+    }
+    return "";
 }
 
 
