@@ -73,7 +73,7 @@ setInterval(function() {
 						elem1.style.transition = "opacity 1.5s linear 0s";
 		elem1.style.opacity = "0";
 	}
-},4000);
+},4500);
 
 /*Menu*/
 var subnav = ["subnav1", "subnav2"];
