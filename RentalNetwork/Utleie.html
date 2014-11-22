@@ -9,8 +9,11 @@
 	</head>
 	<body>
 		<header>
-			<div class="navbar">
-				<div id="noEn"><p><a href="en/Rental.html" title="English version of the page">EN</a></p></div>
+			<div id="navbar">
+				<ul id="noEn">
+					<li id="borderRight"><a href="#" title="Lock the header to the top of the page" id="lockHeader" onclick="lockHeader()">Lock header</a></li>
+					<li><a href="en/Rental.html" title="English version of the page">English</a></li>
+				</ul>
 				<a href="Forside.html">  <img id="navLogo" src="images/rnnlogo2.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
 				<nav>
 					<ul>
@@ -47,19 +50,35 @@
 				</p> 
 				<div class="utleieWrap">
 					<div>
-						<img class="utleieBilde" src="images/utleie/Lyd.jpg" alt="Lyd. Bilde av høyttaler"/>
+						<a href="utleie/Lyd.html">
+							<span title="Sjekk ut våre lyd-pakker her">
+								<img class="utleieBilde" src="images/utleie/Lyd.jpg" alt="Lyd. Bilde av høyttaler"/>
+							</span>
+						</a>
 						<a class="utleieLink" href="utleie/Lyd.html">Leie av lydsystem</a>
 					</div>
 					<div>
-						<img class="utleieBilde" src="images/utleie/Lys.jpg" alt = "Lys. Bilde av lyskastere"/>
+						<a href="utleie/Lys.html">
+							<span title="Sjekk ut våre lys-pakker her">
+								<img class="utleieBilde" src="images/utleie/Lys.jpg" alt = "Lys. Bilde av lyskastere"/>
+							</span>
+						</a>
 						<a class="utleieLink" href="utleie/Lys.html">Leie av lys</a>  
 					</div>
 					<div>
-						<img class="utleieBilde" src="images/utleie/Festival.jpg" alt="Større arrangement. Bilde av en festival"/>
+						<a href="utleie/Festival.html">
+							<span title="Sjekk ut våre festival-pakker her">
+								<img class="utleieBilde" src="images/utleie/Festival.jpg" alt="Større arrangement. Bilde av en festival"/>
+							</span>
+						</a>
 						<a class="utleieLink" href="utleie/Festival.html">Større pakker</a>
 					</div>
 					<div id="utleieDivHoyre">
-						<img class="utleieBilde" src="images/utleie/Tilbehør.jpg" alt="Tilbehør. Bilde av aggregat"/>
+						<a href="utleie/Tilbehør.html">
+							<span title="Sjekk ut vårt sortiment av tilbehør her">
+								<img class="utleieBilde" src="images/utleie/Tilbehør.jpg" alt="Tilbehør. Bilde av aggregat"/>
+							</span>
+						</a>
 						<a class="utleieLink" href="utleie/Tilbehør.html">Leie av tilbehør</a>
 					</div>
 				</div>

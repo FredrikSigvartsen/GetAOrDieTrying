@@ -61,7 +61,7 @@ article.hoyreSpalte {
 #navLogo {
 	height: 87%;
 	/*width: 7.5%;*/
-	
+	z-index: 2;
 	position: relative;
 	margin-top: 0.5%;
 	margin-left: 6.1%;
@@ -91,7 +91,7 @@ header {
 }
 
 /*Nav-bar*/
-.navbar {
+#navbar {
 	width: 100%;
 	height: 20%;
 	position: fixed;
@@ -115,36 +115,46 @@ nav {
 	position: absolute;
 	margin-top: 6.07%;
 	margin-right: 3%;
+	z-index: 2;
 }
 
 nav#headerMenuEn {
 	margin-right: 4.8%;
 }
 
-div#noEn{
+ul#noEn{
+	list-style-type: none;
 	position: absolute;
-	width: 2%;
-	height: 28%;
-	top: -7%;
-	right: 5%;
-	border-bottom: 2px solid #FF3030;/**/
+	width: 15%;
+	/*height: 28%;*/
+	/*top: -7%;*/
+	right: 8.5%;
+	/*background: black;*/
 	/*background: #D1A319;*//**/
 	font-size: 1.1vw;
 	padding-bottom: 0;
+	z-index: 2;
 }
 
-div#noEn p {
-	position: absolute;
-	/*font-weight: bold;*/
-	margin-bottom: 0;
-	padding-left: 3px;
-	bottom: 0;
+ul#noEn li {
+	float: left;
+	padding-left: 4%;
 }
 
-div#noEn a {
+ul#noEn li#borderRight {
+	border-right: 2px solid #FF3030;
+	padding-right: 4%;
+	padding-left: 0;
+}
+
+ul#noEn li a {
     color: #FAFAFA;
+	border-bottom: 1px solid #333333;
 	text-decoration: none;
 }
+	ul#noEn li a:hover, ul#noEn li a:focus {
+		border-bottom: 1px solid #FF3030;
+	}
 
 nav ul {
 	list-style-type: none;

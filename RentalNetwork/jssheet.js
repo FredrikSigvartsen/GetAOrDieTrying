@@ -90,6 +90,21 @@ var subnav = ["subnav1", "subnav2"];
 		}
 	}
 
+/*Lock header*/
+function lockHeader() {
+	var elem = document.getElementById("navbar");
+	var elem1 = document.getElementById("lockHeader");
+	
+	if (elem.style.position == "absolute") {
+		elem.style.position = "fixed";
+		elem1.innerHTML = "Lock header";
+	} else {
+		elem.style.position = "absolute";
+		elem1.innerHTML = "Unlock header";
+	}		
+}
+
+
 /*News*/
 var nyhetSide = ["nyhetSide1", "nyhetSide2"];
 function byttNyhet(el) {
