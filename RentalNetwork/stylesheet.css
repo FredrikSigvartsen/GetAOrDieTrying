@@ -64,7 +64,7 @@ article.hoyreSpalte {
 	z-index: 2;
 	position: relative;
 	margin-top: 0.5%;
-	margin-left: 6.1%;
+	left: 6.1%;
 }
 
 header {
@@ -272,7 +272,7 @@ footer {
 			width: 13%;/**/
 		}
 		footer ul.footerMeny li#footerInfo {
-			width: 16.5%;/**/
+			width: 18%;/**/
 		}
 		footer ul.footerMeny li#footerInfoEn{
 			width: 20%;
@@ -608,27 +608,28 @@ and (max-width : 768px) {
 		}
 		#navLogo {/**********************************************************************/
 			margin-top: 1.5%;
-			margin-left: 3%;
+			left: -8%;
 		}
 		.navbar {
 			/*height: 170px;*/
 		}
 		nav {
-			margin-right: -5%;
+			margin-right: -7.5%;
 			width: 65%;
 		}
 		nav ul {
-			font-size: 2.5vw;
+			font-size: 2.3vw;
 		}
 		nav ul ul li {
 			width: 150%;
 		}
 		nav ul ul li a {
 			width: 100%;
-			font-size: 2vw;
+			font-size: 1.8vw;
 		}
-		div#noEn {
-			width: 3%;
+		ul#noEn {
+			width: 17%;
+			right: 2%;
 			font-size: 1.5vw;
 		}
 		/*hoved innhold*/
@@ -659,13 +660,33 @@ and (max-width : 768px) {
 			width: 97%;
 			margin-left: 3%;
 		}
-		footer ul ul#subnav3 {
+		footer ul ul#subnav2 {
 			top: 12.5%;
-			left: 10%;
+			left: 17%;
 		}
-		footer ul ul#subnav4 {
-			left: 19%;
-			top: 36%;
+		footer ul.footerMeny li#footerHjem {
+			width: 14%;/**/
+		}
+		footer ul.footerMeny li#footerHjemEn {
+			width: 13%;/**/
+		}
+		footer ul.footerMeny li#footerInfo {
+			width: 21%;/**/
+		}
+		footer ul.footerMeny li#footerInfoEn{
+			width: 20%;
+		}
+		footer ul.footerMeny li#footerUtleie{
+			width: 14.5%;/**/
+		}
+		footer ul.footerMeny li#footerUtleieEn{
+			width: 14%;/**/
+		}
+		footer ul.footerMeny li#footerDJ{
+			width: 6.5%;/**/
+		}
+		footer ul.footerMeny li#footerKontakt{
+			width: 20%;/**/
 		}
 		/*INFO SIDE*/
 		#infoImg {
@@ -822,16 +843,15 @@ and (max-width:500px) {
 		}
 		#navLogo {
 			height: 70%;
-			width: 14%;
 			margin-top: 2.8%;
-			margin-left: 3%;
+			left: -11%;
 		}
 		nav {
-			margin-right: -8%;
+			margin-right: -12%;
 			width: 84%;
 		}
 		nav ul {
-			font-size: 3.2vw;
+			font-size: 2.9vw;
 		}
 		nav ul ul li {
 			width: 150%;
@@ -840,8 +860,9 @@ and (max-width:500px) {
 			width: 100%;
 			font-size: 2.7vw;
 		}
-		div#noEn {
-			width: 4%;
+		ul#noEn {
+			width: 25%;
+			right: 1%;
 			font-size: 2.3vw;
 		}
 		/*hoved innhold*/
@@ -872,13 +893,33 @@ and (max-width:500px) {
 			width: 97%;
 			margin-left: 3%;
 		}
-		footer ul ul#subnav3 {
-			top: 14%;
-			left: 22%;
+		footer ul ul#subnav2 {
+			top: 11%;
+			left: 20.5%;
 		}
-		footer ul ul#subnav4 {
-			left: 17%;
-			top: 35%;
+		footer ul.footerMeny li#footerHjem {
+			width: 18%;/**/
+		}
+		footer ul.footerMeny li#footerHjemEn {
+			width: 13%;/**/
+		}
+		footer ul.footerMeny li#footerInfo {
+			width: 27%;/**/
+		}
+		footer ul.footerMeny li#footerInfoEn{
+			width: 20%;
+		}
+		footer ul.footerMeny li#footerUtleie{
+			width: 18.5%;/**/
+		}
+		footer ul.footerMeny li#footerUtleieEn{
+			width: 14%;/**/
+		}
+		footer ul.footerMeny li#footerDJ{
+			width: 9.5%;/**/
+		}
+		footer ul.footerMeny li#footerKontakt{
+			width: 24%;/**/
 		}
 		/*INFO SIDE*/
 		#infoImg {
