@@ -507,6 +507,14 @@ article div.informasjon {
 	width: 35%;
 }
 
+
+@media only screen  and (min-width : 1824px) {
+	/*large screens*/
+	footer {
+		height: 300px;
+	}
+}
+
 @media only screen 
 and (min-device-width : 501px) 
 and (max-device-width : 768px) {
@@ -517,29 +525,32 @@ and (max-device-width : 768px) {
 			font-size: 3.2vw;
 		}
 		#navLogo {
-			width: 11%;
 			margin-top: 1.5%;
-			margin-left: 3%;
+			left: -5.5%;
 		}
-		.navbar {
-			height: 170px;
+		#navbar {
+			height: 130px;
 		}
 		nav {
-			margin-right: -5%;
+			margin-right: -7.5%;
 			width: 65%;
 		}
+		nav#headerMenuEn {
+			margin-right: -5.5%;
+		}
 		nav ul {
-			font-size: 2.5vw;
+			font-size: 2.3vw;
 		}
 		nav ul ul li {
 			width: 150%;
 		}
 		nav ul ul li a {
 			width: 100%;
-			font-size: 2vw;
+			font-size: 1.8vw;
 		}
-		div#noEn {
-			width: 3%;
+		ul#noEn {
+			width: 19%;
+			right: 2%;
 			font-size: 1.5vw;
 		}
 		/*hoved innhold*/
@@ -570,20 +581,49 @@ and (max-device-width : 768px) {
 			width: 97%;
 			margin-left: 3%;
 		}
-		footer ul ul#subnav3 {
+		footer ul ul#subnav2 {
 			top: 12.5%;
-			left: 10%;
+			left: 17%;
 		}
-		footer ul ul#subnav4 {
-			left: 19%;
-			top: 36%;
+		footer ul.footerMeny li#footerHjem {
+			width: 14%;/**/
+		}
+		footer ul.footerMeny li#footerHjemEn {
+			width: 15%;/**/
+		}
+		footer ul.footerMeny li#footerInfo {
+			width: 21%;/**/
+		}
+		footer ul.footerMeny li#footerInfoEn{
+			width: 24%;
+		}
+		footer ul.footerMeny li#footerUtleie{
+			width: 14.5%;/**/
+		}
+		footer ul.footerMeny li#footerUtleieEn{
+			width: 16%;/**/
+		}
+		footer ul.footerMeny li#footerDJ{
+			width: 6.5%;/**/
+		}
+		footer ul.footerMeny li#footerKontakt{
+			width: 20%;/**/
+		}
+		footer ul ul.footerMenuEnglish {
+			left: 17% !important;
+		}
+		p#copyright {
+			position: absolute;
+			right: 0;
+			font-size: 1.1vw;
+			bottom: 0%;
 		}
 		/*INFO SIDE*/
 		#infoImg {
 			width: 61%;
 		}
 		article a.anchor {
-			padding-top: 185px;
+			padding-top: 135px;
 		}
 		/*UTELEIE SIDE*/
 		.utleieBilde {
@@ -615,7 +655,7 @@ and (max-width : 768px) {
 		h1 {
 			font-size: 3.2vw;
 		}
-		#navLogo {/**********************************************************************/
+		#navLogo {
 			margin-top: 1.5%;
 			left: -8%;
 		}
@@ -665,7 +705,7 @@ and (max-width : 768px) {
 		}
 		/*footer*/
 		footer {
-			/*height: 250px;*/
+			height: 190px;
 			font-size: 1.7vw;
 		}
 		footer div.footerwrap {
@@ -910,7 +950,7 @@ and (max-width:500px) {
 		}
 		/*footer*/
 		footer {
-			/*height: 320px;*/
+			height: 190px;
 			font-size: 2.1vw;
 		}
 		footer div.footerwrap {
@@ -944,6 +984,9 @@ and (max-width:500px) {
 		}
 		footer ul.footerMeny li#footerKontakt{
 			width: 25%;/**/
+		}
+		footer ul ul.footerMenuEnglish {
+			left: 22% !important;
 		}
 		p#copyright {
 			position: absolute;
