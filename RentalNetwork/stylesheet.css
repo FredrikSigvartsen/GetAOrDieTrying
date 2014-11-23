@@ -218,8 +218,8 @@ nav ul ul#subnav1,nav ul ul#subnav2 {
 /* footer */
 footer {
 	width: 100%;
-	/*height: 215px;*/
-	height: 33vh;
+	height: 215px;
+	/*height: 33vh;*/
 	background-color: #333333;/**/
 	box-shadow: -1px 1px 5px #000000;/**/
 	clear: both;
@@ -332,7 +332,15 @@ footer {
 			/*color: #FF3030;*/
 			border-bottom: 1px solid #FF3030;/**/
 		}
-
+div#sosialMedia {
+	position: relative;
+}
+p#copyright {
+	position: absolute;
+	right: 0;
+	font-size: 0.9vw;
+	bottom: -5%;
+}
 /*FORSIDE*/
 .publisert {
 	font-style: italic;
@@ -617,6 +625,9 @@ and (max-width : 768px) {
 			margin-right: -7.5%;
 			width: 65%;
 		}
+		nav#headerMenuEn {
+			margin-right: -5.5%;
+		}
 		nav ul {
 			font-size: 2.3vw;
 		}
@@ -668,7 +679,7 @@ and (max-width : 768px) {
 			width: 14%;/**/
 		}
 		footer ul.footerMeny li#footerHjemEn {
-			width: 13%;/**/
+			width: 15%;/**/
 		}
 		footer ul.footerMeny li#footerInfo {
 			width: 21%;/**/
@@ -687,6 +698,12 @@ and (max-width : 768px) {
 		}
 		footer ul.footerMeny li#footerKontakt{
 			width: 20%;/**/
+		}
+		p#copyright {
+			position: absolute;
+			right: 0;
+			font-size: 1.5vw;
+			bottom: 0%;
 		}
 		/*INFO SIDE*/
 		#infoImg {
@@ -920,6 +937,12 @@ and (max-width:500px) {
 		}
 		footer ul.footerMeny li#footerKontakt{
 			width: 24%;/**/
+		}
+		p#copyright {
+			position: absolute;
+			right: 0;
+			font-size: 1.8vw;
+			bottom: 0%;
 		}
 		/*INFO SIDE*/
 		#infoImg {
