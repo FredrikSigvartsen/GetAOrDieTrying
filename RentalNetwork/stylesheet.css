@@ -858,8 +858,8 @@ and (max-width:500px) {
 		h1 {
 			font-size: 4.7vw;
 		}
-		.navbar {
-			height: 170px;
+		#navbar {
+			height: 130px;
 		}
 		#navLogo {
 			height: 70%;
