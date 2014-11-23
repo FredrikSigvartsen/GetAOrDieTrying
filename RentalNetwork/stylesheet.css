@@ -618,8 +618,8 @@ and (max-width : 768px) {
 			margin-top: 1.5%;
 			left: -8%;
 		}
-		.navbar {
-			/*height: 170px;*/
+		#navbar {
+			height: 130px;
 		}
 		nav {
 			margin-right: -7.5%;
