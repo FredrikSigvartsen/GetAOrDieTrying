@@ -785,31 +785,34 @@ and (max-device-width:500px) {
 		h1 {
 			font-size: 4.7vw;
 		}
-		.navbar {
-			height: 170px;
+		#navbar {
+			height: 130px;
 		}
 		#navLogo {
 			height: 70%;
-			width: 14%;
 			margin-top: 2.8%;
-			margin-left: 3%;
+			left: -4%;
 		}
 		nav {
-			margin-right: -8%;
+			margin-right: -15%;
 			width: 84%;
 		}
+		nav#headerMenuEn {
+			margin-right: -9%;
+		}
 		nav ul {
-			font-size: 3.2vw;
+			font-size: 2.9vw;
 		}
 		nav ul ul li {
 			width: 150%;
 		}
 		nav ul ul li a {
 			width: 100%;
-			font-size: 2.7vw;
+			font-size: 2.6vw;
 		}
-		div#noEn {
-			width: 4%;
+		ul#noEn {
+			width: 28%;
+			right: 1%;
 			font-size: 2.3vw;
 		}
 		/*hoved innhold*/
@@ -833,20 +836,49 @@ and (max-device-width:500px) {
 		}
 		/*footer*/
 		footer {
-			height: 320px;
+			height: 300px;
 			font-size: 2.1vw;
 		}
 		footer div.footerwrap {
 			width: 97%;
 			margin-left: 3%;
 		}
-		footer ul ul#subnav3 {
+		footer ul ul#subnav2 {
 			top: 14%;
-			left: 22%;
+			left: 20.5%;
 		}
-		footer ul ul#subnav4 {
-			left: 17%;
-			top: 35%;
+		footer ul.footerMeny li#footerHjem {
+			width: 18%;/**/
+		}
+		footer ul.footerMeny li#footerHjemEn {
+			width: 21%;/**/
+		}
+		footer ul.footerMeny li#footerInfo {
+			width: 27%;/**/
+		}
+		footer ul.footerMeny li#footerInfoEn{
+			width: 30%;
+		}
+		footer ul.footerMeny li#footerUtleie{
+			width: 18.5%;/**/
+		}
+		footer ul.footerMeny li#footerUtleieEn{
+			width: 21.5%;/**/
+		}
+		footer ul.footerMeny li#footerDJ{
+			width: 9.5%;/**/
+		}
+		footer ul.footerMeny li#footerKontakt{
+			width: 25%;/**/
+		}
+		footer ul ul.footerMenuEnglish {
+			left: 22% !important;
+		}
+		p#copyright {
+			position: absolute;
+			right: 0;
+			font-size: 1.8vw;
+			bottom: 0%;
 		}
 		/*INFO SIDE*/
 		#infoImg {
@@ -855,7 +887,7 @@ and (max-device-width:500px) {
 			margin-top: 10px;
 		}
 		article a.anchor {
-			padding-top: 180px;
+			padding-top: 150px;
 		}
 		/*UTELEIE SIDE*/
 		.utleieBilde {
