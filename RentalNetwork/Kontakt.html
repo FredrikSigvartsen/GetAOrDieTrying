@@ -7,17 +7,17 @@
 		<meta charset="UTF-8">
 		<script src="jssheet.js"></script>
 	</head>
-	<body onload="checkCookie()">
+	<body onload="checkCookie(); setHighlight();">
 		<header>
 			<div id="navbar">
 				<ul id="noEn">
-					<li id="borderRight"><a href="#" id="lockHeader" onclick="lockHeader()">Lock header</a></li>
+					<li id="borderRight"><a href="#" id="lockHeader" onclick="lockHeader()" title="Locks navigation bar to the top of the page">Lock header</a></li>
 					<li><a href="en/Contact.html" title="English version of the page">English</a></li>
 				</ul>
 				<a href="Forside.html">  <img id="navLogo" src="images/rnnlogo2.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
 				<nav>
-					<ul>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
+					<ul onmouseover="removeHighlight()" onmouseout="setHighlight()">
+						<li><a onmouseover="dropMenu()" onfocus="removeHighlight(); dropMenu();" href="Forside.html">Hjem</a></li>
 						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Utleie.html">Utleie</a>
 							<ul id="subnav1">
 								<li><a href="utleie/Lyd.html">Lyd</a></li>
@@ -28,7 +28,7 @@
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="OmOss.html">Om oss</a></li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Kontakt.html" class="highlight">Kontakt</a></li>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" onblur="setHighlight()" href="Kontakt.html" id="highlight">Kontakt</a></li>
 					</ul>
 					
 				</nav>

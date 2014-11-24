@@ -76,6 +76,14 @@ setInterval(function() {
 },4500);
 
 /*Menu*/
+function removeHighlight() {
+	document.getElementById("highlight").style.borderBottom = "";
+	
+}
+function setHighlight() {
+	document.getElementById("highlight").style.borderBottomColor = "#FF3030";
+}
+
 var subnav = ["subnav1", "subnav2"];
 	function dropMenu(x) {
 		for (var i in subnav) {
@@ -98,10 +106,12 @@ function lockHeader() {
 	if (elem.style.position == "absolute") {
 		elem.style.position = "fixed";
 		elem1.innerHTML = "Lock header";
-		setCookie("headerCookie", "locked")
+		elem1.title = "Locks navigation bar to the top of the page";
+		setCookie("headerCookie", "locked");
 	} else {
 		elem.style.position = "absolute";
 		elem1.innerHTML = "Unlock header";
+		elem1.title = "Unlocks the navigation bar so it follows you when scrolling";
 		setCookie("headerCookie", "unlocked");
 	}		
 }
@@ -113,6 +123,7 @@ function checkCookie() {
 	
 	if (cookieValue == "unlocked") {
 		elem.style.position = "absolute";
+		elem1.title = "Unlocks the navigation bar so it follows you when scrolling";
 		elem1.innerHTML = "Unlock header";
 	}
 }

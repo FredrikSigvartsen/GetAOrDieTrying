@@ -188,9 +188,12 @@ nav ul li {
 			/*outline: 0;*/
 			border-bottom: 4px solid #FF3030;
 		}
-		nav ul li a.highlight {
-			border-bottom: 4px solid #FF3030;/**/
+		/*nav ul li a#highlight {
+			border-bottom: 4px solid #FF3030;
 		}
+		nav ul li a#highlight:hover {
+			border-bottom: 4px solid #FF3030;
+		}*/
 
 nav ul ul#subnav1,nav ul ul#subnav2 {	
 	display: none;
