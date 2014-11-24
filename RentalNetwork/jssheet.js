@@ -121,6 +121,7 @@ function lockHeader() {
 	}		
 }
 
+/*Cookie*/
 function checkCookie() {
 	var elem = document.getElementById("navbar");
 	var elem1 = document.getElementById("lockHeader");
@@ -133,7 +134,6 @@ function checkCookie() {
 	}
 }
 
-/*Cookie*/
 function setCookie(cname, cvalue) {
     document.cookie = cname + "=" + cvalue;
 }
@@ -150,7 +150,6 @@ function getCookie(cname) {
     }
     return "";
 }
-
 
 /*News*/
 var nyhetSide = ["nyhetSide1", "nyhetSide2"];
