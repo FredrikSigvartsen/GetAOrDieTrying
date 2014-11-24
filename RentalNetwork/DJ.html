@@ -10,6 +10,7 @@
 	<body onload="checkCookie(); setHighlight();">
 		<header>
 			<div id="navbar">
+				<a id="skipToMain" href="#main">Skip to main content</a>
 				<ul id="noEn">
 					<li id="borderRight"><a href="#" id="lockHeader" onclick="lockHeader()" title="Locks navigation bar to the top of the page">Lock header</a></li>
 					<li><a href="en/DJ.html" title="English version of the page">English</a></li>
@@ -38,7 +39,7 @@
 			<img onmouseover="dropMenu()" class="headerImg" id="bilde4" src="images/rnnimg4.jpg" alt=""/>
 			<img onmouseover="dropMenu()" class="headerImg" id="bilde5" src="images/rnnimg5.jpg" alt=""/>
 		</header>
-		<section onmouseover="dropMenu()">
+		<section onmouseover="dropMenu()" role="main" id="main" tabindex="-1">
 			<article class="hovedSpalte">
 				<h1>Våre DJer</h1>
 				<div class="dj">

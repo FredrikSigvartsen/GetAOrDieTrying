@@ -9,6 +9,17 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
+a#skipToMain {
+	position: absolute;
+	color: #FAFAFA;
+	text-decoration: none;
+	left: -999px;
+	top: 5px;
+}
+a#skipToMain:focus {
+	left: 45%;
+}
+
 h1 {
 	font-size: 2.6vw;
 	padding-bottom: 10px;
