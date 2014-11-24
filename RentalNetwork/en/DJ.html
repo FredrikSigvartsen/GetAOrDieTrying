@@ -7,7 +7,7 @@
 		<meta charset="UTF-8">
 		<script src="../jssheet.js"></script>
 	</head>
-	<body onload="checkCookie()">
+	<body onload="checkCookie(); setHighlight();">
 		<header>
 			<div id="navbar">
 				<ul id="noEn">
@@ -16,8 +16,8 @@
 				</ul>
 				<a href="Frontpage.html"><img id="navLogo" src="../images/rnnlogo2.png" alt="Rental Network Logo, and link to homepage" /></a>
 				<nav id="headerMenuEn">
-					<ul>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
+					<ul onmouseover="removeHighlight()" onmouseout="setHighlight()">
+						<li><a onmouseover="dropMenu()" onfocus="removeHighlight(); dropMenu();" href="Frontpage.html">Home</a></li>
 						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Rental.html">Rental</a>
 							<ul id="subnav1">
 								<li><a href="rental/Sound.html">Soundsystem</a></li>
@@ -26,9 +26,9 @@
 								<li><a href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html" class="highlight">DJ</a></li>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html" id="highlight">DJ</a></li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="About.html">About us</a></li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Contact.html">Contact</a></li>
+						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" onblur="setHighlight()" href="Contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
