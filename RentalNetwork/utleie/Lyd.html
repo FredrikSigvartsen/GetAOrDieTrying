@@ -20,10 +20,10 @@
 						<li><a onmouseover="dropMenu()" onfocus="removeHighlight(); dropMenu();" href="../Forside.html">Hjem</a></li>
 						<li><a id="highlight" onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="../Utleie.html">Utleie</a>
 							<ul id="subnav1">
-								<li><a href="Lyd.html">Lyd</a></li>
+								<li><a onfocus="setHighlight()" href="Lyd.html">Lyd</a></li>
 								<li><a href="Lys.html">Lys</a></li>
 								<li><a href="Festival.html">Festival</a></li>
-								<li><a href="Tilbehør.html">Tilbehør</a></li>
+								<li><a onblur="removeHighlight()" href="Tilbehør.html">Tilbehør</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="../DJ.html">DJ</a></li>

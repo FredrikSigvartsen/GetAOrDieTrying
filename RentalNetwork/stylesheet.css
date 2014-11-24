@@ -411,7 +411,7 @@ article a.utleieLink {
 	font-weight: bold;
 }
 
-article a.utleieLink:hover {
+article a.utleieLink:hover, article a.utleieLink:focus {
     border-bottom: 1px solid #FF3030;
 }
 
