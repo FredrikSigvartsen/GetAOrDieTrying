@@ -19,11 +19,11 @@
 					<ul onmouseover="removeHighlight()" onmouseout="setHighlight()">
 						<li><a onmouseover="dropMenu()" onfocus="removeHighlight(); dropMenu();" href="Forside.html">Hjem</a></li>
 						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Utleie.html" id="highlight">Utleie</a>
-							<ul id="subnav1">
-								<li><a href="utleie/Lyd.html">Lyd</a></li>
+							<ul id="subnav1" onmouseover="setHighlight()" onmouseout="removeHighlight()"><!------------------------------------------------------------------------->
+								<li><a onfocus="setHighlight()" href="utleie/Lyd.html">Lyd</a></li>
 								<li><a href="utleie/Lys.html">Lys</a></li>
 								<li><a href="utleie/Festival.html">Festival</a></li>
-								<li><a href="utleie/Tilbehør.html">Tilbehør</a></li>
+								<li><a onblur="removeHighlight()" href="utleie/Tilbehør.html">Tilbehør</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>

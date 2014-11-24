@@ -18,12 +18,12 @@
 				<nav>
 					<ul onmouseover="removeHighlight()" onmouseout="setHighlight()">
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
-						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Utleie.html">Utleie</a>
-							<ul id="subnav1">
-								<li><a href="utleie/Lyd.html">Lyd</a></li>
+						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Utleie.html" id="utleieHighlight">Utleie</a>
+							<ul id="subnav1" onmouseover="keepHighlight()" onmouseout="removeKeptHighlight()">
+								<li><a onfocus="keepHighlight()" href="utleie/Lyd.html">Lyd</a></li>
 								<li><a href="utleie/Lys.html">Lys</a></li>
 								<li><a href="utleie/Festival.html">Festival</a></li>
-								<li><a href="utleie/Tilbehør.html">Tilbehør</a></li>
+								<li><a onblur="removeKeptHighlight()" href="utleie/Tilbehør.html">Tilbehør</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>

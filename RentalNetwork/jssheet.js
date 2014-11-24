@@ -78,10 +78,15 @@ setInterval(function() {
 /*Menu*/
 function removeHighlight() {
 	document.getElementById("highlight").style.borderBottom = "";
-	
 }
 function setHighlight() {
 	document.getElementById("highlight").style.borderBottomColor = "#FF3030";
+}
+function keepHighlight() {
+	document.getElementById("utleieHighlight").style.borderBottomColor = "#FF3030";
+}
+function removeKeptHighlight() {
+	document.getElementById("utleieHighlight").style.borderBottom = "";
 }
 
 var subnav = ["subnav1", "subnav2"];

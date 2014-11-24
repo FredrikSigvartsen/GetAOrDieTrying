@@ -18,12 +18,12 @@
 				<nav id="headerMenuEn">
 					<ul onmouseover="removeHighlight()" onmouseout="setHighlight()">
 						<li><a onmouseover="dropMenu()" onfocus="removeHighlight(); dropMenu();" href="Frontpage.html">Home</a></li>
-						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Rental.html">Rental</a>
-							<ul id="subnav1">
-								<li><a href="rental/Sound.html">Soundsystem</a></li>
+						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Rental.html" id="utleieHighlight">Rental</a>
+							<ul id="subnav1" onmouseover="keepHighlight()" onmouseout="removeKeptHighlight()">
+								<li><a onfocus="keepHighlight()" href="rental/Sound.html">Soundsystem</a></li>
 								<li><a href="rental/Lighting.html">Lighting</a></li>
 								<li><a href="rental/Packages.html">Packages</a></li>
-								<li><a href="rental/Equipment.html">Equipment</a></li>
+								<li><a onblur="removeKeptHighlight()" href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
 						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
