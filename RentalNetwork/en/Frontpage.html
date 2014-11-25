@@ -16,20 +16,20 @@
 					<li><a href="../Forside.html" title="English version of the page">Norwegian</a></li>
 				</ul>
 				<a href="Frontpage.html"><img id="navLogo" src="../images/rnnlogo2.png" alt="Rental Network Logo, and link to homepage" /></a>
-				<nav id="headerMenuEn">
-					<ul onmouseover="removeHighlight()" onmouseout="setHighlight()">
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html" id="highlight">Home</a></li>
-						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1'); removeHighlight();" href="Rental.html" id="utleieHighlight">Rental</a>
-							<ul id="subnav1" onmouseover="keepHighlight()" onmouseout="removeKeptHighlight()">
-								<li><a onfocus="keepHighlight()" href="rental/Sound.html">Soundsystem</a></li>
-								<li><a href="rental/Lighting.html">Lighting</a></li>
-								<li><a href="rental/Packages.html">Packages</a></li>
-								<li><a onblur="removeKeptHighlight()" href="rental/Equipment.html">Equipment</a></li>
+				<nav role="navigation" aria-label="main menu" id="headerMenuEn">
+					<ul role="menubar" onmouseover="removeHighlight()" onmouseout="setHighlight()">
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html" id="highlight">Home</a></li>
+						<li role="menuitem" aria-haspopup="true"><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1'); removeHighlight();" href="Rental.html" id="utleieHighlight">Rental</a>
+							<ul role="menu" id="subnav1" onmouseover="keepHighlight()" onmouseout="removeKeptHighlight()">
+								<li role="menuitem"><a onfocus="keepHighlight()" href="rental/Sound.html">Soundsystem</a></li>
+								<li role="menuitem"><a href="rental/Lighting.html">Lighting</a></li>
+								<li role="menuitem"><a href="rental/Packages.html">Packages</a></li>
+								<li role="menuitem"><a onblur="removeKeptHighlight()" href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="About.html">About us</a></li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" onblur="setHighlight()" href="Contact.html">Contact</a></li>
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="About.html">About us</a></li>
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="dropMenu()" onblur="setHighlight()" href="Contact.html">Contact</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -124,21 +124,21 @@
 						<li>E-mail: post@rn-norway.no</li>
 					</ul>
 				</div>
-				<div>
+				<div role="navigation">
 					<h3>Menu</h3>
-					<ul class="footerMeny">
-						<li id="footerHjemEn"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
-						<li id="footerUtleieEn"><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Rental.html">Rental</a>
-							<ul id="subnav2" class="footerMenuEnglish">
-								<li><a href="rental/Sound.html">Sound</a></li>
-								<li><a href="rental/Lighting.html">Light</a></li>
-								<li><a href="rental/Packages.html">Packages</a></li>
-								<li><a href="rental/Equipment.html">Equipment</a></li>
+					<ul role="menubar" class="footerMeny">
+						<li role="menuitem" id="footerHjemEn"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Frontpage.html">Home</a></li>
+						<li role="menuitem" aria-haspopup="true" id="footerUtleieEn"><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Rental.html">Rental</a>
+							<ul role="menu" id="subnav2" class="footerMenuEnglish">
+								<li role="menuitem"><a href="rental/Sound.html">Sound</a></li>
+								<li role="menuitem"><a href="rental/Lighting.html">Light</a></li>
+								<li role="menuitem"><a href="rental/Packages.html">Packages</a></li>
+								<li role="menuitem"><a href="rental/Equipment.html">Equipment</a></li>
 							</ul>
 						</li>
-						<li id="footerDJ"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li id="footerInfoEn"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="About.html">About us</a></li>
-						<li id="footerKontakt"><a href="Kontakt.html">Contact</a></li>
+						<li role="menuitem" id="footerDJ"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li role="menuitem" id="footerInfoEn"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="About.html">About us</a></li>
+						<li role="menuitem" id="footerKontakt"><a href="Kontakt.html">Contact</a></li>
 					</ul>
 				</div>
 				<div id="sosialMedia">
