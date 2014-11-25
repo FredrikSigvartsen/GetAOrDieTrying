@@ -43,22 +43,22 @@
 		<section onmouseover="dropMenu()" role="main" id="main" tabindex="-1">
 			<article class="hovedSpalte">
 				<h1>Kontakt</h1>
-				<form method="POST" name="Kontktoss" action="Kontakt.php">
-					<p>Hvem er dere?: <input type= "text" name="FirmaNavn" placeholder="Skriv inn firmanavn" ></p>
-					<p>Fornavn: <input type="text" name="Fornavn" required aria-required="true" placeholder="Skriv inn fornavn her" ></p>
-					<p>Etternavn: <input type="text" name="Etternavn" required aria-required="true" placeholder="Skriv inn etternavn her" ></p>
-					<p>Telefon: <input type="tel" name="TelefonNr" reqiured aria-required="true" placeholder="Skriv inn telefonnummer her" ></p>
-					<p>E-post:  <input type="email" name="Email" required aria-required="true" placeholder="Skriv inn din E-post her"></p>
-					<p>Type arrangement:
-						<select name="TypeArang">
+				<form method="POST" name="Kontaktoss" action="Kontakt.php">
+					<p><label for="Firmname">Hvem er dere?: <input type="text" id="Firmname" name="Firmanavn" placeholder="Skriv inn firmanavn" ></label></p>
+					<p><label for="Firstname">Fornavn: <input type="text" id="Firstname" name="Fornavn" required aria-required="true" placeholder="Skriv inn fornavn her" ></label></p>
+					<p><label for="Lastname">Etternavn: <input type="text" id="Lastname" name="Etternavn" required aria-required="true" placeholder="Skriv inn etternavn her" ></label></p>
+					<p><label for="Phonenumber">Telefon: <input type="tel" id="Phonenumber" name="Telefonnummer" reqiured aria-required="true" placeholder="Skriv inn telefonnummer her" ></label></p>
+					<p><label for="Emailadress">E-post:  <input type="email" id="Emailadress" name="Email" required aria-required="true" placeholder="Skriv inn din E-post her" ></label></p>
+					<p><label for="EventType">Type arrangement:
+						<select name="TypeArang" id="EventType">
 							<option value="festival"> Festival </option>
 							<option value="russetreff"> Russetreff </option>
 							<option value="privat"> Privat arrangement</option>
 							<option value="konsert"> Konsert </option>
 							<option value="konferanse"> Konferanse </option>
 						</select>
-					</p>
-					<textarea name="MailFelt" placeholder="Skriv mail" aria-required="true" required></textarea>
+					</label></p>
+					<label for="WriteMail">Skriv din mail her:<textarea id="WriteMail" name="MailFelt" placeholder="Skriv mail" aria-required="true" required></textarea></label>
 					<input type="submit" value="Send" id="submit">
 				</form>
 				<div class="informasjon">
