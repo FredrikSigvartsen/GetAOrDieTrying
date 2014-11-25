@@ -10,7 +10,7 @@
 	<body onload="checkCookie(); setHighlight();">
 		<header>
 			<div id="navbar">
-				<a id="skipToMain" href="#main">Skip to main content</a>
+				<a id="skipToMain" href="#main" aria-label="Skip to main content">Skip to main content</a>
 				<ul id="noEn">
 					<li id="borderRight"><a href="#" id="lockHeader" onclick="lockHeader()" title="Locks navigation bar to the top of the page">Lock header</a></li>
 					<li><a href="../Forside.html" title="English version of the page">Norsk</a></li>
@@ -60,13 +60,13 @@
 					This guarantees quality and safety for your own interest.		
 				</p>
 				<h3>Russe-clothes</h3>
-				<span title="Link to russXpress' homepage">
+				<span title="Link to http://russxpress.no/">
 					<a href="http://russxpress.no/"><img class="forsideBilde" src="../images/russxpress.png" alt="russXpress logo. Link to their homepage"/></a>
 				</span>
 				<p> In cooperation with Russxpress, we can deliver quality clothes at a good price to our partners.</p>
 				<h3 class="linje">Freelance?</h3>
 				<p>We are always in need of experienced technicians. Want to work freelance with us? Or are you a larger group, athletic team,
-				   school? Then you should <a href="Contact.html">get in touch!</a>
+				   school? Then you should <a href="Contact.html" title="Link to contact-page">get in touch!</a>
 				</p>
 			</article>
 			<article class="hoyreSpalte">
@@ -76,18 +76,20 @@
 						<p>
 							RNN has recived 6 new GoPro Hero 3+ edition extremesport cameras as well as lots of mounts and accessories, in our rental department!
 							These cameras feature top of the line specs and are perfect for smaller productions such as the events we supply.
-							For booking and questions regarding our services, please <a href="Contact.html">contact us!</a>
+							For booking and questions regarding our services, please <a href="Contact.html" title="Link to contact-page">contact us!</a>
 						</p>
 						<img class="nyhetBilde" src="../images/goPro.jpg" alt="Picture of a goPro camera"/>
 						<p>
-							<a href="http://shop.gopro.com/cameras/hero3plus-black/CHDHX-302-master.html#/technical-specs">Read more about the GoPro HERO 3+ BLACK edition here</a>
+							<a href="http://shop.gopro.com/cameras/hero3plus-black/CHDHX-302-master.html#/technical-specs" title="Link to http://shop.gopro.com/cameras/hero3plus-black/CHDHX-302-master.html#/technical-specs">
+								Read more about the GoPro HERO 3+ BLACK edition here
+							</a>
 						</p>
 						<p class="publisert"> Published 13.01.14 by RNN </p>
 						<p class="nyhetNav">
 							<span>&#x00AB </span> 
-							1 <a onclick="byttNyhet('nyhetSide1')" class="active" href="#nyhet2en">2</a> 
+							1 <a onclick="byttNyhet('nyhetSide1')" class="active" href="#nyhet2en" title="Next page">2</a> 
 							<span>
-								<a onclick="byttNyhet('nyhetSide1')" class="active" href="#nyhet2en">&#x00BB</a>
+								<a onclick="byttNyhet('nyhetSide1')" class="active" href="#nyhet2en" title="Next page">&#x00BB</a>
 							</span>
 						</p>
 				</div>
@@ -104,9 +106,9 @@
 						<p class="publisert">Published 18.11.13 by RNN</p>
 						<p class="nyhetNav">
 							<span>
-								<a onclick="byttNyhet('nyhetSide2')" class="active" href="#nyhet1en">&#x00AB</a>
+								<a onclick="byttNyhet('nyhetSide2')" class="active" href="#nyhet1en" title="Previous page">&#x00AB</a>
 							</span> 
-							<a onclick="byttNyhet('nyhetSide2')" class="active" href="#nyhet1en">1</a> 2 
+							<a onclick="byttNyhet('nyhetSide2')" class="active" href="#nyhet1en" title="Previous page">1</a> 2 
 							<span>&#x00BB </span>
 						</p>
 				</div>
