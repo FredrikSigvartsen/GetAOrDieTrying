@@ -16,20 +16,20 @@
 					<li><a href="en/Contact.html" title="English version of the page">English</a></li>
 				</ul>
 				<a href="Forside.html">  <img id="navLogo" src="images/rnnlogo2.png" alt="Rental Network Logo, og link til hjemmeside." /> </a>
-				<nav>
-					<ul onmouseover="removeHighlight()" onmouseout="setHighlight()">
-						<li><a onmouseover="dropMenu()" onfocus="removeHighlight(); dropMenu();" href="Forside.html">Hjem</a></li>
-						<li><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Utleie.html" id="utleieHighlight">Utleie</a>
-							<ul id="subnav1" onmouseover="keepHighlight()" onmouseout="removeKeptHighlight()">
-								<li><a onfocus="keepHighlight()" href="utleie/Lyd.html">Lyd</a></li>
-								<li><a href="utleie/Lys.html">Lys</a></li>
-								<li><a href="utleie/Festival.html">Festival</a></li>
-								<li><a onblur="removeKeptHighlight()" href="utleie/Tilbehør.html">Tilbehør</a></li>
+				<nav role="navigation" aria-label="main menu">
+					<ul role="menubar" onmouseover="removeHighlight()" onmouseout="setHighlight()">
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="removeHighlight(); dropMenu();" href="Forside.html">Hjem</a></li>
+						<li role="menuitem" aria-haspopup="true"><a onmouseover="dropMenu('subnav1')" onfocus="dropMenu('subnav1')" href="Utleie.html" id="utleieHighlight">Utleie</a>
+							<ul role="menu" id="subnav1" onmouseover="keepHighlight()" onmouseout="removeKeptHighlight()">
+								<li role="menuitem"><a onfocus="keepHighlight()" href="utleie/Lyd.html">Lyd</a></li>
+								<li role="menuitem"><a href="utleie/Lys.html">Lys</a></li>
+								<li role="menuitem"><a href="utleie/Festival.html">Festival</a></li>
+								<li role="menuitem"><a onblur="removeKeptHighlight()" href="utleie/Tilbehør.html">Tilbehør</a></li>
 							</ul>
 						</li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" href="OmOss.html">Om oss</a></li>
-						<li><a onmouseover="dropMenu()" onfocus="dropMenu()" onblur="setHighlight()" href="Kontakt.html" id="highlight">Kontakt</a></li>
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="OmOss.html">Om oss</a></li>
+						<li role="menuitem"><a onmouseover="dropMenu()" onfocus="dropMenu()" onblur="setHighlight()" href="Kontakt.html" id="highlight">Kontakt</a></li>
 					</ul>
 					
 				</nav>
@@ -45,10 +45,10 @@
 				<h1>Kontakt</h1>
 				<form method="POST" name="Kontktoss" action="Kontakt.php">
 					<p>Hvem er dere?: <input type= "text" name="FirmaNavn" placeholder="Skriv inn firmanavn" ></p>
-					<p>Fornavn: <input type="text" name="Fornavn" required placeholder="Skriv inn fornavn her" ></p>
-					<p>Etternavn: <input type="text" name="Etternavn" required placeholder="Skriv inn etternavn her" ></p>
-					<p>Telefon: <input type="tel" name="TelefonNr" reqiured placeholder="Skriv inn telefonnummer her" ></p>
-					<p>E-post:  <input type="email" name="Email" required placeholder="Skriv inn din E-post her" ></p>
+					<p>Fornavn: <input type="text" name="Fornavn" required aria-required="true" placeholder="Skriv inn fornavn her" ></p>
+					<p>Etternavn: <input type="text" name="Etternavn" required aria-required="true" placeholder="Skriv inn etternavn her" ></p>
+					<p>Telefon: <input type="tel" name="TelefonNr" reqiured aria-required="true" placeholder="Skriv inn telefonnummer her" ></p>
+					<p>E-post:  <input type="email" name="Email" required aria-required="true" placeholder="Skriv inn din E-post her"></p>
 					<p>Type arrangement:
 						<select name="TypeArang">
 							<option value="festival"> Festival </option>
@@ -58,7 +58,7 @@
 							<option value="konferanse"> Konferanse </option>
 						</select>
 					</p>
-					<textarea name="MailFelt" placeholder="Skriv mail" required></textarea>
+					<textarea name="MailFelt" placeholder="Skriv mail" aria-required="true" required></textarea>
 					<input type="submit" value="Send" id="submit">
 				</form>
 				<div class="informasjon">
@@ -83,21 +83,21 @@
 						<li>E-post: post@rn-norway.no</li>
 					</ul>
 				</div>
-				<div>
+				<div role="navigation">
 					<h3>Meny</h3>
-					<ul class="footerMeny">
-						<li id="footerHjem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
-						<li id="footerUtleie"><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Utleie.html">Utleie</a>
-							<ul id="subnav2">
-								<li><a href="utleie/Lyd.html">Lyd</a></li>
-								<li><a href="utleie/Lys.html">Lys</a></li>
-								<li><a href="utleie/Festival.html">Festival</a></li>
-								<li><a href="utleie/Tilbehør.html">Tilbehør</a></li>
+					<ul role="menubar" class="footerMeny">
+						<li role="menuitem" id="footerHjem"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="Forside.html">Hjem</a></li>
+						<li role="menuitem" aria-haspopup="true" id="footerUtleie"><a onmouseover="dropMenu('subnav2')" onfocus="dropMenu('subnav2')" href="Utleie.html">Utleie</a>
+							<ul role="menu" id="subnav2">
+								<li role="menuitem"><a href="utleie/Lyd.html">Lyd</a></li>
+								<li role="menuitem"><a href="utleie/Lys.html">Lys</a></li>
+								<li role="menuitem"><a href="utleie/Festival.html">Festival</a></li>
+								<li role="menuitem"><a href="utleie/Tilbehør.html">Tilbehør</a></li>
 							</ul>
 						</li>
-						<li id="footerDJ"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
-						<li id="footerInfo"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="OmOss.html">Om oss</a></li>
-						<li id="footerKontakt"><a href="Kontakt.html">Kontakt</a></li>
+						<li role="menuitem" id="footerDJ"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="DJ.html">DJ</a></li>
+						<li role="menuitem" id="footerInfo"><a onmouseover="dropMenu()" onfocus="dropMenu()" href="OmOss.html">Om oss</a></li>
+						<li role="menuitem" id="footerKontakt"><a href="Kontakt.html">Kontakt</a></li>
 					</ul>
 				</div>
 				<div id="sosialMedia">
