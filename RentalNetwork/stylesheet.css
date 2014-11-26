@@ -24,8 +24,7 @@ h1 {
 	font-size: 2.6vw;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
-	/*color: #000000;*/
-	border-bottom: 1px solid #FF3030;/**/
+	border-bottom: 1px solid #FF3030;
 }
 
 p {
@@ -71,7 +70,6 @@ article.hoyreSpalte {
 
 #navLogo {
 	height: 87%;
-	/*width: 7.5%;*/
 	z-index: 2;
 	position: relative;
 	margin-top: 0.5%;
@@ -109,13 +107,9 @@ header {
 	position: fixed;
 	margin: 0;
 	padding: 0;
-	background: -webkit-linear-gradient( rgba(255,255,255,0.8), rgba(209,163,25,1));
-	background: -moz-linear-gradient( rgba(255,255,255,0.8), rgba(209,163,25,1));
-	background: -o-linear-gradient( rgba(255,255,255,0.8), rgba(209,163,25,1));
-	background: -ms-linear-gradient( rgba(255,255,255,0.8), rgba(209,163,25,1));
-	background: #333333;/*linear-gradient( rgb(255,255,255), rgb(209,163,25));*//**/
+	background: #333333;
 	display: border-box;
-	box-shadow: -1px 1px 5px #000000;/**/
+	box-shadow: -1px 1px 5px #000000;
 	z-index: 1;
 }
 
@@ -138,11 +132,7 @@ ul#noEn{
 	list-style-type: none;
 	position: absolute;
 	width: 15%;
-	/*height: 28%;*/
-	/*top: -7%;*/
 	right: 8.5%;
-	/*background: black;*/
-	/*background: #D1A319;*//**/
 	font-size: 1.1vw;
 	padding-bottom: 0;
 	z-index: 2;
@@ -199,12 +189,6 @@ nav ul li {
 			/*outline: 0;*/
 			border-bottom: 4px solid #FF3030;
 		}
-		/*nav ul li a#highlight {
-			border-bottom: 4px solid #FF3030;
-		}
-		nav ul li a#highlight:hover {
-			border-bottom: 4px solid #FF3030;
-		}*/
 
 nav ul ul#subnav1,nav ul ul#subnav2 {	
 	display: none;
@@ -235,10 +219,10 @@ footer {
 	width: 100%;
 	height: 215px;
 	/*height: 33vh;*/
-	background-color: #333333;/**/
-	box-shadow: -1px 1px 5px #000000;/**/
+	background-color: #333333;
+	box-shadow: -1px 1px 5px #000000;
 	clear: both;
-	color: #FAFAFA;/**/
+	color: #FAFAFA;
 	font-size: 1.17vw;
 }
 	footer div.footerwrap {
@@ -259,7 +243,7 @@ footer {
 		}
 		footer div div h3 {
 			border-bottom: 2px solid #FF3030;
-			color: #FAFAFA;/**/
+			color: #FAFAFA;
 		}
 		footer div div img {
 			width: 30%;
@@ -281,28 +265,28 @@ footer {
 			display: block;
 		}
 		footer ul.footerMeny li#footerHjem {
-			width: 12%;/**/
+			width: 12%;
 		}
 		footer ul.footerMeny li#footerHjemEn {
-			width: 13%;/**/
+			width: 13%;
 		}
 		footer ul.footerMeny li#footerInfo {
-			width: 18%;/**/
+			width: 18%;
 		}
 		footer ul.footerMeny li#footerInfoEn{
 			width: 20%;
 		}
 		footer ul.footerMeny li#footerUtleie{
-			width: 13%;/**/
+			width: 13%;
 		}
 		footer ul.footerMeny li#footerUtleieEn{
-			width: 14%;/**/
+			width: 14%;
 		}
 		footer ul.footerMeny li#footerDJ{
-			width: 6%;/**/
+			width: 6%;
 		}
 		footer ul.footerMeny li#footerKontakt{
-			width: 17%;/**/
+			width: 17%;
 		}
 		footer ul#footerKontaktListe li {
 			border-bottom: 1px solid #333333;
@@ -316,12 +300,11 @@ footer {
 			footer ul li a {
 				display: block;
 				text-decoration: none;
-				color: #FAFAFA;/**/
+				color: #FAFAFA;
 				border-bottom: 1px solid #333333;
 			}
 			footer ul li a:hover, footer ul li a:focus, footer ul li a:active {
 				/*outline: 0;*/
-				/*color: #FF3030;*/
 				border-bottom: 1px solid #FF3030;/**/
 			}
 	footer ul ul#subnav2 {
@@ -338,14 +321,12 @@ footer {
 		footer ul ul li {
 			float: left;
 			border-left: 1px solid #FF3030;
-			/*border-left: 0;*/
 			padding-right: 2%;
 			padding-left: 2%;
 		}
 		footer ul ul li a:hover, footer ul ul li a:focus, footer ul ul li a:active {
 			/*outline: 0;*/
-			/*color: #FF3030;*/
-			border-bottom: 1px solid #FF3030;/**/
+			border-bottom: 1px solid #FF3030;
 		}
 div#sosialMedia {
 	position: relative;
@@ -600,28 +581,28 @@ and (max-device-width : 768px) {
 			left: 17%;
 		}
 		footer ul.footerMeny li#footerHjem {
-			width: 14%;/**/
+			width: 14%;
 		}
 		footer ul.footerMeny li#footerHjemEn {
-			width: 15%;/**/
+			width: 15%;
 		}
 		footer ul.footerMeny li#footerInfo {
-			width: 21%;/**/
+			width: 21%;
 		}
 		footer ul.footerMeny li#footerInfoEn{
 			width: 24%;
 		}
 		footer ul.footerMeny li#footerUtleie{
-			width: 14.5%;/**/
+			width: 14.5%;
 		}
 		footer ul.footerMeny li#footerUtleieEn{
-			width: 16%;/**/
+			width: 16%;
 		}
 		footer ul.footerMeny li#footerDJ{
-			width: 6.5%;/**/
+			width: 6.5%;
 		}
 		footer ul.footerMeny li#footerKontakt{
-			width: 20%;/**/
+			width: 20%;
 		}
 		footer ul ul.footerMenuEnglish {
 			left: 17% !important;
@@ -663,7 +644,7 @@ and (max-device-width : 768px) {
 @media only screen 
 and (min-width : 501px) 
 and (max-width : 768px) {
-		/* tablets */
+		/* Skalering på pc */
 		/*ALLE SIDER*/
 		/*header*/
 		h1 {
@@ -731,28 +712,28 @@ and (max-width : 768px) {
 			left: 17%;
 		}
 		footer ul.footerMeny li#footerHjem {
-			width: 14%;/**/
+			width: 14%;
 		}
 		footer ul.footerMeny li#footerHjemEn {
-			width: 15%;/**/
+			width: 15%;
 		}
 		footer ul.footerMeny li#footerInfo {
-			width: 21%;/**/
+			width: 21%;
 		}
 		footer ul.footerMeny li#footerInfoEn{
 			width: 24%;
 		}
 		footer ul.footerMeny li#footerUtleie{
-			width: 14.5%;/**/
+			width: 14.5%;
 		}
 		footer ul.footerMeny li#footerUtleieEn{
-			width: 14%;/**/
+			width: 14%;
 		}
 		footer ul.footerMeny li#footerDJ{
-			width: 6.5%;/**/
+			width: 6.5%;
 		}
 		footer ul.footerMeny li#footerKontakt{
-			width: 20%;/**/
+			width: 20%;
 		}
 		footer ul ul.footerMenuEnglish {
 			left: 17% !important;
@@ -939,7 +920,7 @@ and (max-device-width:500px) {
 
 @media only screen 
 and (max-width:500px) {
-   /* Mobile */
+   /* Skalering på pc */
 	/*ALLE SIDER*/
 		/*header*/
 		h1 {
@@ -1008,28 +989,28 @@ and (max-width:500px) {
 			left: 20.5%;
 		}
 		footer ul.footerMeny li#footerHjem {
-			width: 18%;/**/
+			width: 18%;
 		}
 		footer ul.footerMeny li#footerHjemEn {
-			width: 21%;/**/
+			width: 21%;
 		}
 		footer ul.footerMeny li#footerInfo {
-			width: 27%;/**/
+			width: 27%;
 		}
 		footer ul.footerMeny li#footerInfoEn{
 			width: 30%;
 		}
 		footer ul.footerMeny li#footerUtleie{
-			width: 18.5%;/**/
+			width: 18.5%;
 		}
 		footer ul.footerMeny li#footerUtleieEn{
-			width: 21.5%;/**/
+			width: 21.5%;
 		}
 		footer ul.footerMeny li#footerDJ{
-			width: 9.5%;/**/
+			width: 9.5%;
 		}
 		footer ul.footerMeny li#footerKontakt{
-			width: 25%;/**/
+			width: 25%;
 		}
 		footer ul ul.footerMenuEnglish {
 			left: 22% !important;
