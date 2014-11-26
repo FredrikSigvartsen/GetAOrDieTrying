@@ -73,7 +73,7 @@ setInterval(function() {
 						elem1.style.transition = "opacity 1.5s linear 0s";
 		elem1.style.opacity = "0";
 	}
-},4500);
+},6500);
 
 /*Menu*/
 function removeHighlight() {
